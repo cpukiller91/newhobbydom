@@ -4,6 +4,7 @@
     [[$head.meta]]
 </head>
 <body>
+<main>
 [[$header]]
 <div class="article__header">
     <p class="article__news">новости</p>
@@ -275,5 +276,6 @@
 [[$popup.modall]]
 
 <script type="text/javascript" src="https://newhobbydom.hosteam.pro/assets/template/js/bundle.js"></script>
+</main>
 </body>
 </html>

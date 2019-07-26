@@ -4,6 +4,7 @@
     [[$head.meta]]
 </head>
 <body class="clases-page">
+<main>
 [[$header]]
 <section class="clases__header">
 
@@ -121,5 +122,6 @@
 [[$popup.modall]]
 
 <script type="text/javascript" src="https://newhobbydom.hosteam.pro/assets/template/js/bundle.js"></script>
+</main>
 </body>
 </html>

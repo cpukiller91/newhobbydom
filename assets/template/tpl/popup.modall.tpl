@@ -47,7 +47,7 @@
                     <input required class="sign-up__textfield" name="name" type="text" placeholder="Имя*" />
                     <input required class="sign-up__textfield" name="email" type="email" placeholder="E-mail*" />
                     <input required class="sign-up__textfield" id="phone_number1000"  name="phone" type="tel"  placeholder="Телефон" />
-                    <a class="sign-up__textfield sign-up__checkboxes" id="sign-up__checkboxes1000" style="z-index: 100;">
+                    <!--<a class="sign-up__textfield sign-up__checkboxes" id="sign-up__checkboxes1000" style="z-index: 100;">
                         <i>
                             <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 200 200"><path d="M90.5 9a9.57 9.57 0 0 0-13.57-.35A9.45 9.45 0 0 0 76.59 22l77.76 79.85-77.76 77.75a9.63 9.63 0 0 0 0 13.4 9.86 9.86 0 0 0 7.13 3 9.39 9.39 0 0 0 6.78-3l84.37-84a9.88 9.88 0 0 0 0-13.57z" fill="#fff"/></svg>
                         </i>
@@ -86,7 +86,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </a>-->
                     <a class="add-child" id="add-child1000">
                         Записать ребенка
                     </a>

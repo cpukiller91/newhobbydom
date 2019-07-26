@@ -4,6 +4,7 @@
     [[$head.meta]]
 </head>
 <body class="contacts">
+<main>
 [[$header]]
 <section class="contacts__content">
     <div class="contacts__header">
@@ -94,5 +95,6 @@
 [[$popup.modall]]
 
 <script type="text/javascript" src="https://newhobbydom.hosteam.pro/assets/template/js/bundle.js"></script>
+</main>
 </body>
 </html>

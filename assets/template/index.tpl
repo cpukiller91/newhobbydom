@@ -4,6 +4,7 @@
     [[$head.meta]]
 </head>
 <body class="main">
+<main>
 [[$header.home]]
 [[$section.hobbydom]]
 [[$section.classes]]
@@ -39,7 +40,7 @@
 
 [[$popup.modall]]
 
-<script src="https://newhobbydom.hosteam.pro/assets/template/js/form--index.js"></script>
 <script type="text/javascript" src="https://newhobbydom.hosteam.pro/assets/template/js/bundle.js"></script>
+</main>
 </body>
 </html>
