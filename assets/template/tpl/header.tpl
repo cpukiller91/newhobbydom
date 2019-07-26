@@ -11,10 +11,10 @@
                     <a target="_blank" href="https://www.instagram.com/hobbydom_latvia/"><img class="nav__top--instagram" src="images/insta_heder.svg" alt=""></a>
                     <a target="_blank" href="https://www.facebook.com/hobbydomlv/"><img class="nav__top--facebook" src="images/fb_heder.svg" alt=""></a>
                     <a href="/[[~17]]">НАШИ ЦЕНЫ</a>
-                    <div class="nav__top--languages" href="ru">RU
+                    <div class="nav__top--languages">RU
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
                             <title></title>
-                            <g id="icomoon-ignore">
+                            <g id="icomoon-ignore3">
                             </g>
                             <path fill="#fff" d="M225.835 414.165l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                         </svg>
@@ -62,7 +62,7 @@
                     <div class="mobile__language-picker">RU
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
                             <title></title>
-                            <g id="icomoon-ignore">
+                            <g id="icomoon-ignore4">
                             </g>
                             <path fill="#36baa5" d="M225.835 414.165l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                         </svg>

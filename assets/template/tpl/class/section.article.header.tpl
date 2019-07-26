@@ -1,4 +1,4 @@
-<section class="article__header">
+<div class="article__header">
     <div class="class__all-clases">
         <a href="/[[~[[*parent]]]]" class="article__news"><img src="images/2arrows_left_grey.svg" alt="">все занятия [[*parent]]</a>
         <div class="class__controls">
@@ -12,4 +12,4 @@
         </div>
     </div>
     <h1>[[*pagetitle]]</h1>
-</section>
+</div>

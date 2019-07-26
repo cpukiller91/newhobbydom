@@ -18,6 +18,6 @@
     </div>
     <div class="clases__tile--hover">
         <a href="/[[~[[+id]]]]" class="button button--tile">[[%hobbydom_clases_popup_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
-        <button class="button button--tile clases__popup--button">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</button>
+        <button class="button button--tile clases__popup--button " @click="openPopup('[[+pagetitle]]')">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</button>
     </div>
 </div>

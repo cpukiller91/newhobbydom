@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     [[$head.meta]]
 </head>
 <body>
 [[$header]]
-<section class="article__header">
+<div class="article__header">
     <p class="article__news">новости</p>
     <h1>Клуб классных мамочек на новой локации</h1>
     <div class="article__author">
@@ -25,7 +25,7 @@
 
         </a>
     </div>
-</section>
+</div>
 <section class="article__content">
     <div class="article__left">
         <p class="article__text"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus quidem ratione similique temporibus. Accusamus corporis ea eaque labore maxime modi molestiae nisi officia soluta vero? Consequuntur eos facilis nihil perspiciatis rerum sed sequi similique voluptates.</span><span>Amet aperiam at aut eveniet ex exercitationem expedita hic incidunt, iste laudantium libero natus non, perferendis possimus qui ut vel voluptate. Molestiae reprehenderit vel vero voluptatibus. Atque omnis quis voluptatum.</span><span>Accusamus alias atque consequatur debitis deserunt earum fugiat iure iusto laboriosam minus neque, nostrum obcaecati pariatur quaerat quis sit suscipit unde velit? Consectetur cumque debitis eius eveniet maiores nihil quibusdam?</span><span>Aliquid asperiores at consequuntur dolores eligendi eos facilis, harum libero perferendis possimus quis ratione, sint voluptatem! Debitis ipsam itaque magni nihil possimus quaerat, voluptas! Deserunt dignissimos error illum porro rem!</span></p>

@@ -1,7 +1,6 @@
 <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<meta name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 <title>[[*pagetitle]]</title>
 <base href="/assets/template/"/>
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
