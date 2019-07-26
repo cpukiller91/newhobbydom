@@ -4,6 +4,7 @@
     [[$head.meta]]
 </head>
 <body>
+<main>
 [[$header]]
 <section class="shedule__content">
     <div class="shedule__header">
@@ -586,7 +587,7 @@
 [[$footer]]
 
 [[$popup.modall]]
-
+</main>
 <script type="text/javascript" src="https://newhobbydom.hosteam.pro/assets/template/js/bundle.js"></script>
 </body>
 </html>
