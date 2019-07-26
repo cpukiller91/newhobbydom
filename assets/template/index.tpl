@@ -44,3 +44,15 @@
 <script type="text/javascript" src="https://newhobbydom.hosteam.pro/assets/template/js/bundle.js"></script>
 </body>
 </html>
+<script>
+    import SignupForm from "./js/signup-form/components/signupForm";
+    export default {
+        components: {SignupForm}
+    }
+</script>
+<script>
+    import SignupPopup from "./js/signup-form/components/signupPopup";
+    export default {
+        components: {SignupPopup}
+    }
+</script>
