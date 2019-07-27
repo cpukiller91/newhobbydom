@@ -1,6 +1,6 @@
 <form name="f1" role="form" method="POST" action="[[~[[*id]]]]" class="">
     <div class="modal-body">
-        <p>подписаться на рассылку</p>
+        <p>подписаться на рассылку1</p>
         <input type="hidden" name="phone" value="+00000000000" data-mask="+0(000)000-00-00">
         <p class="sign-up--inner-rules">Мы будем присылать только важную информацию о ваших занятиях и новых мероприятиях в Hobbydom. Никакой рекламы или спама.</p>
         <input required class="subscribe__textfield" name="name" type="text" placeholder="Имя*" />
