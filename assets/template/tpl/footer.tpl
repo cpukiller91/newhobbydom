@@ -32,7 +32,7 @@
                 ]]
             </div>
             <div class="footer__col--bot">
-                <a href="/[[~28]]">Политика конфиденциальности</a>
+                <a href="/[[~32]]">Политика конфиденциальности</a>
             </div>
         </div>
         <div class="footer__col hide-on-mobile">
@@ -45,7 +45,7 @@
                 ]]
             </div>
             <div class="footer__col--bot">
-                <a href="/[[~29]]">Публичный договор оферты</a>
+                <a href="/[[~33]]">Публичный договор оферты</a>
             </div>
         </div>
         <div class="footer__col hide-on-mobile">
@@ -79,8 +79,8 @@
                     <img src="images/fb_footer.svg" alt=""></a>
             </div>
             <div class="footer__col--bot hide-on-desktop">
-                <a href="/[[~28]]">Политика конфиденциальности</a>
-                <a href="/[[~29]]">Публичный договор оферты</a>
+                <a href="/[[~32]]">Политика конфиденциальности</a>
+                <a href="/[[~33]]">Публичный договор оферты</a>
             </div>
         </div>
     </div>

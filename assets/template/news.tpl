@@ -12,85 +12,13 @@
 
 <section class="news">
     <div class="news__inner">
-        <h3>Новости</h3>
+        <h3>[[%hobbydom_news_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</h3>
         <div class="news__tiles">
-            <div class="news__tile">
-                <img src="images/news-tile-1.jpg" alt="">
-                <div class="news__tile--bot">
-                    <div class="news__tile--content">
-                        <a href="article.html" class="news__tile--content-bold">HobyDom предлагает новые
-                            и увлекательные занятия</a>
-                        <p class="news__tile--content-lite">Это самая приятная, безопасная и в то же время наиболее эффективная физическая нагрузка для будущей мамы!</p>
-                        <p class="news__tile--content-articles">статьи</p>
-                    </div>
-                </div>
-            </div>
-            <div class="news__tile">
-                <img src="images/news-tile-2.jpg" alt="">
-                <div class="news__tile--bot">
-                    <div class="news__tile--content">
-                        <p class="news__tile--content-bold">HobyDom предлагает новые
-                            и увлекательные занятия</p>
-                        <p class="news__tile--content-lite">Это самая приятная, безопасная и в то же время наиболее эффективная физическая нагрузка для будущей мамы!</p>
-                        <p class="news__tile--content-articles">статьи</p>
-                    </div>
-                </div>
-            </div>
-            <div class="news__tile">
-                <img src="images/news-tile-3.jpg" alt="">
-                <div class="news__tile--bot">
-                    <div class="news__tile--content">
-                        <p class="news__tile--content-bold">HobyDom предлагает новые
-                            и увлекательные занятия</p>
-                        <p class="news__tile--content-lite">Это самая приятная, безопасная и в то же время наиболее эффективная физическая нагрузка для будущей мамы!</p>
-                        <p class="news__tile--content-articles">статьи</p>
-                    </div>
-                </div>
-            </div>
-            <div class="news__tile">
-                <img src="images/news-tile-3.jpg" alt="">
-                <div class="news__tile--bot">
-                    <div class="news__tile--content">
-                        <p class="news__tile--content-bold">HobyDom предлагает новые
-                            и увлекательные занятия</p>
-                        <p class="news__tile--content-lite">Это самая приятная, безопасная и в то же время наиболее эффективная физическая нагрузка для будущей мамы!</p>
-                        <p class="news__tile--content-articles">статьи</p>
-                    </div>
-                </div>
-            </div>
-            <div class="news__tile">
-                <img src="images/news-tile-3.jpg" alt="">
-                <div class="news__tile--bot">
-                    <div class="news__tile--content">
-                        <p class="news__tile--content-bold">HobyDom предлагает новые
-                            и увлекательные занятия</p>
-                        <p class="news__tile--content-lite">Это самая приятная, безопасная и в то же время наиболее эффективная физическая нагрузка для будущей мамы!</p>
-                        <p class="news__tile--content-articles">статьи</p>
-                    </div>
-                </div>
-            </div>
-            <div class="news__tile">
-                <img src="images/news-tile-3.jpg" alt="">
-                <div class="news__tile--bot">
-                    <div class="news__tile--content">
-                        <p class="news__tile--content-bold">HobyDom предлагает новые
-                            и увлекательные занятия</p>
-                        <p class="news__tile--content-lite">Это самая приятная, безопасная и в то же время наиболее эффективная физическая нагрузка для будущей мамы!</p>
-                        <p class="news__tile--content-articles">статьи</p>
-                    </div>
-                </div>
-            </div>
-            <div class="news__tile">
-                <img src="images/news-tile-3.jpg" alt="">
-                <div class="news__tile--bot">
-                    <div class="news__tile--content">
-                        <p class="news__tile--content-bold">HobyDom предлагает новые
-                            и увлекательные занятия</p>
-                        <p class="news__tile--content-lite">Это самая приятная, безопасная и в то же время наиболее эффективная физическая нагрузка для будущей мамы!</p>
-                        <p class="news__tile--content-articles">статьи</p>
-                    </div>
-                </div>
-            </div>
+            [[pdoResources?
+                &tpl=`tpl.news.item`
+                &parents=`[[%hobbydom_parent_news? &topic=`hobbydom` &namespace=`hobbydom` ]]`
+                &includeTVs=`article-prev`
+            ]]
         </div>
         <div class="search__loader">
             <div class="loader loader-gray">
