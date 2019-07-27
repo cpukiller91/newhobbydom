@@ -8,7 +8,7 @@
     [[$header]]
     <section class="contacts__content">
         <div class="contacts__header">
-            <h1>[[*pagetitle]]11</h1>
+            <h1>[[*pagetitle]]</h1>
         </div>
         <div class="contacts__left">
             [[*content]]
@@ -21,6 +21,8 @@
         &validate=`phone:required,name:required`
         &emailTpl=`tpl.callBack.email`
         &target=`callBackModal`
+        &registerCss=`0`
+        &registerBootstrap=`0`
     ]]
 
     [[$footer]]

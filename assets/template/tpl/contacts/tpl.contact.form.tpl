@@ -2,7 +2,7 @@
     <div class="subscribe--inner">
         <form role="form" method="POST" action="[[~[[*id]]]]" class="">
             <div class="modal-body">
-                <p>напишите нам 11</p>
+                <p>напишите нам </p>
                 <input type="hidden" name="phone" value="+00000000000" data-mask="+0(000)000-00-00">
                 <input required class="subscribe__textfield" name="name" type="text" placeholder="Имя*" />
                 <input required class="subscribe__textfield" name="email" type="email" placeholder="E-mail*" />
