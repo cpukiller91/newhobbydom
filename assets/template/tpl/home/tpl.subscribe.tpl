@@ -1,20 +1,11 @@
 <form name="f1" role="form" method="POST" action="[[~[[*id]]]]" class="">
     <div class="modal-body">
-        <p>подписаться на рассылку</p>
+        <p>[[%hobbydom_subscribe_form_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</p>
         <input type="hidden" name="phone" value="+00000000000" data-mask="+0(000)000-00-00">
-        <p class="sign-up--inner-rules">Мы будем присылать только важную информацию о ваших занятиях и новых мероприятиях в Hobbydom. Никакой рекламы или спама.</p>
-        <input required class="subscribe__textfield" name="name" type="text" placeholder="Имя*" />
-        <input required class="subscribe__textfield" name="email" type="email" placeholder="E-mail*" />
-        <div class="subscribe__checkbox-wrapper">
-            <div class="subscribe__checkbox">
-                <input class="check-input" type="checkbox" id="accept" name="accept3" required="">
-                <label class="check-label" for="accept3">Я знаком с <a class="accept-link" href="https://hobbydom.hosteam.pro/politika-konfidencialnosti.html">соглашением</a> и согласен с ним</label>
-            </div>
-            <div class="subscribe__checkbox">
-                <input class="check-input" type="checkbox" id="accept" required="" name="accept4">
-                <label class="check-label" for="accept4">Я соглашаюсь на <a class="accept-link" href="https://hobbydom.hosteam.pro/publichnyj-dogovor-oferty.html">обработку персональных данных</a></label>
-            </div>
-        </div>
+        <p class="sign-up--inner-rules">[[%hobbydom_subscribe_form_inner_rules? &topic=`hobbydom` &namespace=`hobbydom` ]]</p>
+        <input required class="subscribe__textfield" name="name" type="text" placeholder="[[%hobbydom_contact_form_name? &topic=`hobbydom` &namespace=`hobbydom` ]]*" />
+        <input required class="subscribe__textfield" name="email" type="email" placeholder="[[%hobbydom_contact_form_email? &topic=`hobbydom` &namespace=`hobbydom` ]]*" />
+        [[%hobbydom_subscribe__checkbox_wrapper? &topic=`hobbydom` &namespace=`hobbydom` ]]
     </div>
     <div class="modal-footer">
         <button type="submit" class="callback-submit button button--white">[[%callback.submit]]</button><i></i>
