@@ -8,7 +8,7 @@
     [[$header]]
     <section class="contacts__content">
         <div class="contacts__header">
-            <h1>[[*pagetitle]]</h1>
+            <h1>[[*pagetitle]]11</h1>
         </div>
         <div class="contacts__left">
             [[*content]]
