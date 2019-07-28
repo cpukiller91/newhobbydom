@@ -10,7 +10,7 @@
 <section class="article__content">
     <div class="article__left">
         <section class="article__header">
-            <img src="images/article-main-img.jpg" alt="" class="article__main-img">
+            <img src="/[[*class-image-detail]]" alt="" class="article__main-img">
 
             <div class="class__target-customers">
                 [[*type-class]]
@@ -39,17 +39,18 @@
                     <img src="images/gift_blue.svg" alt=""><p class="class__info--green">Певрое занятие бесплатное!</p>
                 </div>
             </div>
-            <a @click="openPopup('[[+pagetitle]]')" class="button button--green">записаться на занятие</a>
+            <a @click="openPopup('[[+pagetitle]]')" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
         </div>
     </div>
 </section>
 <section class="article__content article__content--second">
     <div class="article__left">
         [[*content]]
-        <a @click="openPopup('[[+pagetitle]]')" class="button button--green">записаться на занятие</a>
+        <a @click="openPopup('[[+pagetitle]]')" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
     </div>
     <div class="article__right">
         <div class="article__right--vidgets">
+
             <div class="class__scrollable--info">
                 <h4 class="scrollable__info--title">преподаватели</h4>
                 <div class="scrollable__info--controls">
@@ -62,6 +63,7 @@
                     <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda, deserunt eius eveniet fuga libero, magnam minima molestiae nesciunt non optio quibusdam quos repellendus reprehenderit repudiandae, sed soluta tempora voluptas.</span><span>Ad aperiam at corporis dolores eveniet explicabo facilis illo, necessitatibus odit quasi reiciendis repellat repudiandae voluptate. Consectetur, eaque, enim. Architecto doloremque eligendi facilis modi neque nihil odio pariatur. Necessitatibus, quidem!</span><span>Aliquam asperiores dolore et excepturi quos! Cum doloremque fuga modi necessitatibus quas quidem repellendus, tenetur. Ab, aliquid cumque earum enim eveniet itaque laudantium pariatur perferendis porro repudiandae tempore, veritatis voluptatibus?</span><span>Amet dicta impedit nisi quo repudiandae sed totam. Ab aliquam animi architecto consectetur, consequatur distinctio ex, id libero molestiae necessitatibus nisi omnis quae quam sunt, vel vitae voluptas? Ducimus, voluptates.</span><span>Aspernatur consequuntur cupiditate delectus dicta, doloribus ea error excepturi explicabo ipsum iusto laboriosam laborum libero magni maiores modi necessitatibus nobis non nostrum numquam omnis optio, quia reprehenderit, sit temporibus ut?</span></p>
                 </div>
             </div>
+
             <div class="class__scrollable--info">
                 <h4 class="scrollable__info--title">отзывы о занятии</h4>
                 <div class="scrollable__info--controls">
