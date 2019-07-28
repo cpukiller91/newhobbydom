@@ -39,6 +39,7 @@ $_lang['hobbydom_clases_price_evro'] = ' евро';
 $_lang['hobbydom_parent_news'] = '7';
 $_lang['hobbydom_news_title'] = 'Новости';
 $_lang['hobbydom_all_news'] = 'Все новости';
+$_lang['hobbydom_news_other'] = 'Другие новости';
 
 $_lang['hobbydom_parent_feedback'] = '13';
 $_lang['hobbydom_feedback_title'] = 'Отзывы';
