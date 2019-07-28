@@ -36,6 +36,11 @@ $_lang['hobbydom_clases_popup_title'] = 'подробнее';
 $_lang['hobbydom_clases_popup_button'] = 'записаться на занятие';
 $_lang['hobbydom_clases_price_ot'] = 'от ';
 $_lang['hobbydom_clases_price_evro'] = ' евро';
+$_lang['hobbydom_clases_all_article'] = 'все занятия';
+$_lang['hobbydom_clases_prev'] = 'предыдущее';
+$_lang['hobbydom_clases_next'] = 'следующее';
+$_lang['hobbydom_clases_up'] = 'занятия';
+
 
 $_lang['hobbydom_parent_news'] = '7';
 $_lang['hobbydom_news_title'] = 'Новости';

@@ -10,7 +10,7 @@
 <section class="article__content">
     <div class="article__left">
         <section class="article__header">
-            <img src="images/article-main-img.jpg" alt="" class="article__main-img">
+            <img src="/[[*class-image-detail]]" alt="" class="article__main-img">
 
             <div class="class__target-customers">
                 [[*type-class]]
@@ -39,14 +39,14 @@
                     <img src="images/gift_blue.svg" alt=""><p class="class__info--green">Певрое занятие бесплатное!</p>
                 </div>
             </div>
-            <a @click="openPopup('[[+pagetitle]]')" class="button button--green">записаться на занятие</a>
+            <a @click="openPopup('[[+pagetitle]]')" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
         </div>
     </div>
 </section>
 <section class="article__content article__content--second">
     <div class="article__left">
         [[*content]]
-        <a @click="openPopup('[[+pagetitle]]')" class="button button--green">записаться на занятие</a>
+        <a @click="openPopup('[[+pagetitle]]')" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
     </div>
     <div class="article__right">
         <div class="article__right--vidgets">
