@@ -31,6 +31,7 @@ $_lang['hobbydom_b_girl_content'] = '
 </div>';
 
 $_lang['hobbydom_clases_home_title'] = 'Наши занятия';
+$_lang['hobbydom_clases_other_title'] = 'Другие занятия';
 $_lang['hobbydom_clases_popup_title'] = 'подробнее';
 $_lang['hobbydom_clases_popup_button'] = 'записаться на занятие';
 $_lang['hobbydom_clases_price_ot'] = 'от ';

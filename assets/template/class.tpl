@@ -45,62 +45,7 @@
 </section>
 <section class="article__content article__content--second">
     <div class="article__left">
-        <div class="article__header article__header-bdb">
-            <p class="class__descr class__descr-top"> molestias nemo, non omnis sapiente, sit suscipit velit?</p>
-            <p class="class__sub-descr">Занятия проводятся билингвально.</p>
-        </div>
-        <div class="class__content">
-            <div class="class__content--item class__subtitle-acordeon">
-                <p class="class__subtitle">описание <img src="images/arrow_down_grey.svg" alt=""></p>
-                <div class="class__text--wrapper">
-                    <p class="article__text"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolores et ex excepturi exercitationem expedita illum molestiae mollitia nihil nobis officia officiis perferendis perspiciatis, quam qui recusandae tenetur ullam voluptatibus!</span><span>Aliquid assumenda commodi consequatur deserunt dolores ducimus eligendi eos error ex itaque laudantium libero magnam molestiae nam optio perspiciatis placeat praesentium quae quasi, ratione rem similique tempore voluptatibus! Aliquam, ullam.</span> </p>
-                    <iframe width="100%" height="500px" src="https://www.youtube.com/embed/wLX8mfhs0Mg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                    <ul class="class__list--dotted">
-                        <span>В программе «Раннее музыкальное развитие»</span>
-                        <li>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis illum laboriosam odio qui sed
-                            temporibus veritatis. Alias, ape
-                        </li>
-                        <li>Lorem ipsum dolor sit amet,
-                        </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis illum laboriosam odio qui sed
-                            temporibus veritatis. Alias, aper
-                        </li>
-                    </ul>
-                    <p class="article__text "><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolores et ex excepturi exercitationem expedita illum molestiae mollitia nihil nobis officia officiis perferendis perspiciatis, quam qui recusandae tenetur ullam voluptatibus!</span><span>Aliquid assumenda commodi consequatur deserunt dolores ducimus eligendi eos error ex itaque laudantium libero magnam molestiae nam optio perspiciatis placeat praesentium quae quasi, ratione rem similique tempore voluptatibus! Aliquam, ullam.</span> </p>
-                    <div class="class__groups">
-                        <p class="article__text"><b>Занятия проходят в трьох возрастных группах:</b></p>
-                        <p class="article__text"><span class="class__green-text">1-2 </span> лет - группа «Янтарики» (максимум 8 человек в группе).</p>
-                        <p class="article__text"><span class="class__green-text">2-4 </span> лет - группа «Янтарики» (максимум 8 человек в группе).</p>
-                        <p class="article__text"><span class="class__green-text">4-6 </span> лет - группа «Янтарики» (максимум 8 человек в группе).</p>
-                    </div>
-                    <p class="class__subtitle class__subtitle-mobile"><img src="images/arrow_down_grey.svg" alt=""></p>
-                </div>
-            </div>
-            <div class="class__content--item class__content--item-padding-zero class__subtitle-acordeon">
-                <p class="class__subtitle">что брать с собой <img src="images/arrow_down_grey.svg" alt=""></p>
-                <div class="class__text--wrapper">
-                    <p class="article__text article__text--pb"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolores et ex excepturi exercitationem expedita illum molestiae mollitia nihil nobis officia officiis perferendis perspiciatis, quam qui recusandae tenetur ullam voluptatibus!</span><span>Aliquid assumenda commodi consequatur deserunt dolores ducimus eligendi eos error ex itaque laudantium libero magnam molestiae nam optio perspiciatis placeat praesentium quae quasi, ratione rem similique tempore voluptatibus! Aliquam, ullam.</span> </p>
-                    <p class="class__subtitle class__subtitle-mobile"><img src="images/arrow_down_grey.svg" alt=""></p>
-                </div>
-            </div>
-            <div class="class__content--item class__content--item-price class__content--item-padding-zero class__subtitle-acordeon">
-                <p class="class__subtitle">стоимость занятий <img src="images/arrow_down_grey.svg" alt=""></p>
-                <div class="class__text--wrapper">
-                    <p class="article__text"><span class="class__green-text">1</span> занятие - <span class="class__green-text">10</span> евро;</p>
-                    <p class="article__text"><span class="class__green-text">1</span> занятие - <span class="class__green-text">10</span> евро;</p>
-                    <p class="article__text"><span class="class__green-text">1</span> занятие - <span class="class__green-text">10</span> евро;</p>
-                    <div class="class__abonement">
-                        <p class="class__abonement--subtitle">Абонементы</p>
-                        <p class="article__text"><span class="class__green-text">1</span> занятие - <span class="class__green-text">10</span> евро;</p>
-                        <p class="article__text"><span class="class__green-text">1</span> занятие - <span class="class__green-text">10</span> евро;</p>
-                        <p class="article__text"><span class="class__green-text">1</span> занятие - <span class="class__green-text">10</span> евро;</p>
-                    </div>
-                    <p class="class__subtitle class__subtitle-mobile"><img src="images/arrow_down_grey.svg" alt=""></p>
-                </div>
-            </div>
-        </div>
+        [[*content]]
         <a @click="openPopup('[[+pagetitle]]')" class="button button--green">записаться на занятие</a>
     </div>
     <div class="article__right">
@@ -185,71 +130,15 @@
 </section>
 <section class="clases">
     <div class="clases__inner">
-        <h3>Другие занятия</h3>
+        <h3>[[%hobbydom_clases_other_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</h3>
         <div class="clases__tiles">
-            <div class="clases__tile">
-                <img src="images/clases1.png" alt="">
-                <div class="clases__tile--bot">
-                    <div class="clases__tile--content">
-                        <p class="clases__tile--content-bold">Аква мама</p>
-                        <p class="clases__tile--content-lite">Это самая приятная, безопасная и в то же время наиболее эффективная физическая нагрузка для будущей мамы!</p>
-                        <div class="clases__tile--content-icons">
-                            <div class="clases--icons">
-                                <img src="images/baby.svg" alt=""><img src="images/schoolboy.svg" alt=""><img src="images/teen_girl.svg" alt=""><img src="images/women.svg" alt="">
-                            </div>
-                            <div class="clases--price">
-                                <img src="images/evro.svg" alt=""><p>от 8 евро</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clases__tile--hover">
-                    <a href="class.html" class="button button--tile">подробнее</a>
-                    <button class="button button--tile clases__popup--button">записаться на мероприятие</button>
-                </div>
-            </div>
-            <div class="clases__tile">
-                <img src="images/clases2.png" alt="">
-                <div class="clases__tile--bot">
-                    <div class="clases__tile--content">
-                        <p class="clases__tile--content-bold">Ранее музыкальное развитие</p>
-                        <p class="clases__tile--content-lite">Работа с музыкальным материалом – это отличная развивающая методика, благодаря которой ребёнок обретает чувство ритма...</p>
-                        <div class="clases__tile--content-icons">
-                            <div class="clases--icons">
-                                <img src="images/baby.svg" alt=""><img src="images/schoolboy.svg" alt=""><img src="images/teen_girl.svg" alt=""><img src="images/women.svg" alt="">
-                            </div>
-                            <div class="clases--price">
-                                <img src="images/evro.svg" alt=""><p>от 8 евро</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clases__tile--hover">
-                    <a href="class.html" class="button button--tile">подробнее</a>
-                    <button class="button button--tile clases__popup--button">записаться на мероприятие</button>
-                </div>
-            </div>
-            <div class="clases__tile">
-                <img src="images/clases3.png" alt="">
-                <div class="clases__tile--bot">
-                    <div class="clases__tile--content">
-                        <p class="clases__tile--content-bold">Клуб классных мамочек</p>
-                        <p class="clases__tile--content-lite">Как воспитать в ребенке самостоятельность и независимость. Как создать дома такие условия для ребёнка, чтобы он гармонично и непринуждённо развивался.</p>
-                        <div class="clases__tile--content-icons">
-                            <div class="clases--icons">
-                                <img src="images/baby.svg" alt=""><img src="images/schoolboy.svg" alt=""><img src="images/teen_girl.svg" alt=""><img src="images/women.svg" alt="">
-                            </div>
-                            <div class="clases--price">
-                                <img src="images/evro.svg" alt=""><p>от 8 евро</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clases__tile--hover">
-                    <a href="class.html" class="button button--tile">подробнее</a>
-                    <button class="button button--tile clases__popup--button">записаться на мероприятие</button>
-                </div>
-            </div>
+            [[pdoResources?
+                &tpl=`tpl.clases.tile`
+                &parents=`[[++parent_classes]]`
+                &includeTVs=`class-user-option,class-image,price`
+                &resources=`-[[*id]]`
+                &limit=`3`
+            ]]
         </div>
     </div>
 </section>

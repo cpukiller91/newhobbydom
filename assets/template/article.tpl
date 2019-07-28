@@ -7,10 +7,10 @@
 <main>
 [[$header]]
 <div class="article__header">
-    <p class="article__news">новости</p>
+    <p class="article__news">[[%hobbydom_news_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</p>
     <h1>[[*pagetitle]]</h1>
     <div class="article__author">
-        <img src="images/author-img.png" alt=""><p>Оксана Лаврова</p><p class="article--date">16 июня 2018 г</p>
+        <img src="images/author-img.png" alt=""><p>Оксана Лаврова</p><p class="article--date">[[*createdon:strtotime:date=`%d %B %Y`]]г</p>
     </div>
     <img src="images/article-main-img.jpg" alt="" class="article__main-img">
     <div class="header__share">
@@ -42,9 +42,9 @@
                 ]]
 
             </div>
-            <a href="#" class="button button--green article__class--button">все занятия</a>
+            <a href="[[~[[++parent_classes]]]]" class="button button--green article__class--button">все занятия</a>
         </div>
-        <div class="article__events">
+        <!--div class="article__events">
             <h3>наши мероприятия</h3>
             <div class="article__events--content">
                 <div class="article__event">
@@ -82,7 +82,7 @@
         </div>
         <div class="article__shedule">
             <img src="images/calendar_pink.svg" alt=""><a>Расписания всех занятий и мероприятий</a>
-        </div>
+        </div-->
     </div>
 </section>
 <section class="news">
