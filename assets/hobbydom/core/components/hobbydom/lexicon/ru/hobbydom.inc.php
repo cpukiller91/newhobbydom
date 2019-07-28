@@ -31,6 +31,7 @@ $_lang['hobbydom_b_girl_content'] = '
 </div>';
 
 $_lang['hobbydom_clases_home_title'] = 'Наши занятия';
+$_lang['hobbydom_clases_other_title'] = 'Другие занятия';
 $_lang['hobbydom_clases_popup_title'] = 'подробнее';
 $_lang['hobbydom_clases_popup_button'] = 'записаться на занятие';
 $_lang['hobbydom_clases_price_ot'] = 'от ';
@@ -39,6 +40,7 @@ $_lang['hobbydom_clases_price_evro'] = ' евро';
 $_lang['hobbydom_parent_news'] = '7';
 $_lang['hobbydom_news_title'] = 'Новости';
 $_lang['hobbydom_all_news'] = 'Все новости';
+$_lang['hobbydom_news_other'] = 'Другие новости';
 
 $_lang['hobbydom_parent_feedback'] = '13';
 $_lang['hobbydom_feedback_title'] = 'Отзывы';
@@ -63,3 +65,23 @@ $_lang['hobbydom_footer_top_about'] = '4,31,8,9';
 $_lang['hobbydom_footer_top_hobbydom_title'] = 'О Хоббидом';
 $_lang['hobbydom_footer_top_fast_res'] = '26,27,28,29,30';
 $_lang['hobbydom_footer_top_fast_link'] = 'Быстрые ссылки';
+
+$_lang['hobbydom_contact_form_title'] = 'напишите нам';
+$_lang['hobbydom_contact_form_name'] = 'Имя';
+$_lang['hobbydom_contact_form_email'] = 'E-mail';
+$_lang['hobbydom_contact_form_subject'] = 'Тема письма';
+$_lang['hobbydom_contact_form_message'] = 'Текст письма';
+
+$_lang['hobbydom_subscribe_form_title'] = 'подписаться на рассылку';
+$_lang['hobbydom_subscribe_form_inner_rules'] = 'Мы будем присылать только важную информацию о ваших занятиях и новых мероприятиях в Hobbydom. Никакой рекламы или спама.';
+$_lang['hobbydom_subscribe__checkbox_wrapper'] = '
+<div class="subscribe__checkbox-wrapper">
+    <div class="subscribe__checkbox">
+        <input class="check-input" type="checkbox" id="accept" name="accept3" required="">
+        <label class="check-label" for="accept3">Я знаком с <a class="accept-link" href="https://hobbydom.hosteam.pro/politika-konfidencialnosti.html">соглашением</a> и согласен с ним</label>
+    </div>
+    <div class="subscribe__checkbox">
+        <input class="check-input" type="checkbox" id="accept" required="" name="accept4">
+        <label class="check-label" for="accept4">Я соглашаюсь на <a class="accept-link" href="https://hobbydom.hosteam.pro/publichnyj-dogovor-oferty.html">обработку персональных данных</a></label>
+    </div>
+</div>';
