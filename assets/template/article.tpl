@@ -40,7 +40,6 @@
                     &parents=`[[++parent_classes]]`
                     &includeTVs=`class-user-option,class-image,price`
                 ]]
-
             </div>
             <a href="[[~[[++parent_classes]]]]" class="button button--green article__class--button">все занятия</a>
         </div>
