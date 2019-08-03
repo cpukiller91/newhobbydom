@@ -60,7 +60,7 @@
                 </ul>
             </div>
             <div class="footer__col--bot">
-                <p class="footer__col--bot-light">Designed by iden.team</p>
+                <p class="footer__col--bot-light">Designed by <a target="_blank" href="https://iden.team/">iden.team</a></p>
             </div>
         </div>
         <div class="footer__col">
@@ -79,7 +79,7 @@
                     <img src="images/fb_footer.svg" alt=""></a>
             </div>
             <div class="footer__col--bot hide-on-desktop">
-                <a href="/[[~32]]">Политика конфиденциальности</a>
+                <a href="/[[~32]]" target="_blank">Политика конфиденциальности</a>
                 <a href="/[[~33]]">Публичный договор оферты</a>
             </div>
         </div>

@@ -7,6 +7,7 @@
                 &tpl=`tpl.clases.tile`
                 &parents=`[[++parent_classes]]`
                 &includeTVs=`class-user-option,class-image,price`
+                &limit=`6`
             ]]
         </div>
 
