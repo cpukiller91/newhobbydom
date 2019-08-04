@@ -74,9 +74,10 @@
         <!--        </div>-->
         <div class="clases__tiles">
             [[pdoResources?
-            &tpl=`tpl.clases.tile`
-            &parents=`[[++parent_classes]]`
-            &includeTVs=`class-user-option,class-image,price`
+                &tpl=`tpl.clases.tile`
+                &parents=`[[++parent_classes]]`
+                &includeTVs=`class-user-option,class-image,price`
+                &limit=`6`
             ]]
         </div>
         <div class="search__loader">
