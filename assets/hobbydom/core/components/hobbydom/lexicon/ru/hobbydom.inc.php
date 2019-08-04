@@ -90,3 +90,10 @@ $_lang['hobbydom_subscribe__checkbox_wrapper'] = '
         <label class="check-label" for="accept4">Я соглашаюсь на <a class="accept-link" href="https://hobbydom.hosteam.pro/publichnyj-dogovor-oferty.html">обработку персональных данных</a></label>
     </div>
 </div>';
+
+$_lang['hobbydom_class_option_baby'] = '(до 2 лет)';
+$_lang['hobbydom_class_option_schoolboy'] = '(2-6 лет)';
+$_lang['hobbydom_class_option_teen_girl'] = '(6-18 лет)';
+$_lang['hobbydom_class_option_women'] = '+18';
+$_lang['hobbydom_class_free_title'] = 'Певрое занятие бесплатное!';
+$_lang['hobbydom_class_contacts'] = '<div><img src="images/local_pin_blue.svg" alt=""><p>Slokas iela 69, LV-2015</p></div><div><img src="images/local_pin_blue.svg" alt=""><p>Шоссе Талсу 31-К9, LV-2016</p></div>';
