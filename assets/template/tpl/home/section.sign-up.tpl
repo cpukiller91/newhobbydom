@@ -1,4 +1,4 @@
-<section class="sign-up">
+<!--<section class="sign-up">
     <div class="sign-up--inner">
         [[!callBack?
             &tpl=`tpl.contact.item`
@@ -11,4 +11,13 @@
         ]]
 
     </div>
-</section>
+</section>-->
+<signup-form></signup-form>
+
+<signup-popup v-if="popupOpened"
+              @close="onPopupClose"
+              :class="{ success: popupFormSuccess }">
+    <signup-form :types="types"
+                 @success="onPopupFormSuccess"
+    ></signup-form>
+</signup-popup>
