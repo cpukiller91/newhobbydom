@@ -24,10 +24,7 @@
                 <div><img src="images/local_pin_blue.svg" alt=""><p>Шоссе Талсу 31-К9, LV-2016</p></div>
             </div>
             <div class="class__right--row class__right--row-icons">
-                <div><img src="images/baby_blue.svg" alt=""><p>до 2 лет</p></div>
-                <div><img src="images/schoolboy_blue.svg" alt=""><p>до 2-6 лет</p></div>
-                <div><img src="images/schoolboy_blue.svg" alt=""><p>до 2-6 лет</p></div>
-                <div><img src="images/schoolboy_blue.svg" alt=""><p>до 2-6 лет</p></div>
+                [[ClassIcons?&tv=`[[*class-user-option]]` &allTitle=`1` &prefix=`_blue`]]
             </div>
             <div class="class__right--row">
                 <div>
