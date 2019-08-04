@@ -28,13 +28,16 @@
             </div>
             <div class="class__right--row">
                 <div>
-                    <img src="images/evro_blue.svg" alt=""><p>от 30 евро</p><img src="images/clock_blue.svg" alt=""><p>45 минут</p>
+                    <img src="images/evro_blue.svg" alt=""><p>от [[*price]] евро</p><img src="images/clock_blue.svg" alt=""><p>[[*time]] минут</p>
                 </div>
             </div>
             <div class="class__right--row">
-                <div>
-                    <img src="images/gift_blue.svg" alt=""><p class="class__info--green">Певрое занятие бесплатное!</p>
-                </div>
+                [[*class-free:is=`1`:then=`
+                    <div>
+                        <img src="images/gift_blue.svg" alt=""><p class="class__info--green">Певрое занятие бесплатное!</p>
+                    </div>
+                `]]
+
             </div>
             <a @click="openPopup('[[+pagetitle]]')" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
         </div>
