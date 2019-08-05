@@ -10,7 +10,7 @@
                 <textarea  name="message" id="" cols="30" rows="10" placeholder="[[%hobbydom_contact_form_message? &topic=`hobbydom` &namespace=`hobbydom` ]]"></textarea>
             </div>
             <div class="modal-footer">
-                <button type="submit" class="callback-submit button button--green">Напишите нам</button><i></i>
+                <button type="submit" class="callback-submit button button--green">[[%hobbydom_contact_form_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</button><i></i>
             </div>
         </form>
     </div>

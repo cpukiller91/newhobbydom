@@ -67,6 +67,7 @@ LV62PARX0020950320001</p>
 </p>';
 
 $_lang['hobbydom_footer_top_about'] = '4,31,8,9';
+$_lang['hobbydom_menu_mobail'] = '4,7,8,9';
 $_lang['hobbydom_footer_top_hobbydom_title'] = 'О Хоббидом';
 $_lang['hobbydom_footer_top_fast_res'] = '26,27,28,29,30';
 $_lang['hobbydom_footer_top_fast_link'] = 'Быстрые ссылки';
