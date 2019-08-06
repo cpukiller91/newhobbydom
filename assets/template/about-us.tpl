@@ -61,8 +61,12 @@
             <p>Больше преподователей</p>
             <h6>наши партнеры</h6>
             <div>
-                <img src="images/about-us-partner.png" alt="">
-                <img src="images/about-us-partner.png" alt="">
+                [[pdoResources?
+                    &tpl=`about.partner.item`
+                    &parents=`48`
+                    &includeTVs=`about-partner`
+
+                ]]
             </div>
         </div>
     </div>

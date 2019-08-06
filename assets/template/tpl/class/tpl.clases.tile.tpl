@@ -10,7 +10,8 @@
                     [[ClassIcons?&tv=`[[+tv.class-user-option]]` &allTitle=`0`]]
                 </div>
                 <div class="clases--price">
-                    <img src="images/evro.svg" alt=""><p>[[%hobbydom_clases_price_ot? &topic=`hobbydom` &namespace=`hobbydom` ]][[+tv.price]][[%hobbydom_clases_price_evro? &topic=`hobbydom` &namespace=`hobbydom` ]]</p>
+                    [[priceControll? &price=`[[+tv.price]]`]]
+
 
                 </div>
             </div>

@@ -1,0 +1,1 @@
+<img src="/[[+tv.about-partner]]" alt="[[+pagetitle]]">

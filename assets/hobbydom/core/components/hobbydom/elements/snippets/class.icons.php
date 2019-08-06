@@ -16,7 +16,7 @@ if(is_array($partIcons = explode("||",$tv))){
 
             } else {
 
-                echo '<img src="/assets/template/images/' . $part . '.svg" alt="">';
+                echo '<img src="/assets/template/images/' . $part . $prefix . '.svg" alt="">';
 
             }
         }

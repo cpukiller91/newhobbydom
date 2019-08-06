@@ -64,11 +64,12 @@
 
                 </div>
                 <div class="mobile-menu">
+
                     <div class="mobile-menu-top">
                         <ul>
                             [[pdoMenu?
                                 &parents=`0`
-                                &resources=`4,5,6,7,17,8,9`
+                                &resources=`[[%hobbydom_menu_mobail? &topic=`hobbydom` &namespace=`hobbydom` ]]`
                                 &sortdir=`ASC`
                                 &tplOuter=`@INLINE [[+wrapper]]`
                                 &tpl=`@INLINE <li><a href="/[[+link]]">[[+pagetitle]]</a></li>`
