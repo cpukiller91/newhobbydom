@@ -56,6 +56,17 @@
                 &includeContent=`1`
             ]]
         </div>
+        <div class="about-us__category">
+            <h5>НАШИ ПЕДАГОГИ</h5>
+
+                [[pdoResources?
+                &tpl=`about.worker.item`
+                &parents=`45`
+                &includeTVs=`about-avatar`
+                &includeContent=`1`
+                ]]
+
+        </div>
         <div class="about-us__end-page">
             <img src="images/loader.svg" alt="">
             <p>Больше преподователей</p>
@@ -69,6 +80,7 @@
                 ]]
             </div>
         </div>
+
     </div>
 </section>
 [[$footer]]
