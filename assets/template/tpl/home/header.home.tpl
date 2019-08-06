@@ -1,5 +1,5 @@
 <header>
-    [[$cookie.modal]]
+    [[!CookieModal]]
     <nav class="b-nav">
         <div class="nav__bottom">
             <div class="nav__wrapper">

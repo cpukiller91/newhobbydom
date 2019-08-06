@@ -40,5 +40,17 @@ return [
         'file' => 'class.icons',
         'description' => 'hobbydom snippet to list items',
         //'static_file'=>$path.'class.icons.php'
+    ],
+    'CookieModal' => [
+        'file' => 'cookie.modal',
+        'description' => '',
+        'properties' => [
+            'tpl' => [
+                'type' => 'textfield',
+                'value' => 'tpl.modCookiesModal',
+            ],
+        ]
+
+        //'static_file'=>$path.'class.icons.php'
     ]
 ];

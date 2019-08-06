@@ -11,4 +11,9 @@ return [
         'description' => '',
         'static_file' => $path.'tpl.hobbydom.office.tpl',
     ],
+    'tpl.modCookiesModal' => [
+        'file' => 'tpl.cookie.modal',
+        'description' => '',
+        //'static_file' => $path.'tpl.cookie.modal.tpl',
+    ],
 ];

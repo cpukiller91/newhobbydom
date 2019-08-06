@@ -1,4 +1,5 @@
 <header>
+    [[!CookieModal]]
     <nav class="b-nav">
         <div class="nav__top">
             <div class="nav__top--wrapper">

@@ -20,7 +20,7 @@
                 &includeTVs=`article-prev`
             ]]
         </div>
-        <div class="search__loader">
+        <!--div class="search__loader">
             <div class="loader loader-gray">
                 <div class="loader-content">
                     <div class="dot"></div>
@@ -40,7 +40,7 @@
                 <a href=""><p>далее</p><img src="images/arrow_right_grey.svg" alt=""></a>
 
             </div>
-        </div>
+        </div-->
     </div>
 </section>
 

@@ -69,7 +69,7 @@ LV62PARX0020950320001</p>
 $_lang['hobbydom_footer_top_about'] = '4,31,8,9';
 $_lang['hobbydom_menu_mobail'] = '4,7,8,9';
 $_lang['hobbydom_footer_top_hobbydom_title'] = 'О Хоббидом';
-$_lang['hobbydom_footer_top_fast_res'] = '26,27,28,29,30';
+$_lang['hobbydom_footer_top_fast_res'] = '4,7';
 $_lang['hobbydom_footer_top_fast_link'] = 'Быстрые ссылки';
 
 $_lang['hobbydom_contact_form_title'] = 'напишите нам';
@@ -95,6 +95,6 @@ $_lang['hobbydom_subscribe__checkbox_wrapper'] = '
 $_lang['hobbydom_class_option_baby'] = 'до 2 лет';
 $_lang['hobbydom_class_option_schoolboy'] = '2-6 лет';
 $_lang['hobbydom_class_option_teen_girl'] = '6-18 лет';
-$_lang['hobbydom_class_option_women'] = '+18';
+$_lang['hobbydom_class_option_women'] = '18+';
 $_lang['hobbydom_class_free_title'] = 'Певрое занятие бесплатное!';
 $_lang['hobbydom_class_contacts'] = '<div><img src="images/local_pin_blue.svg" alt=""><p>Slokas iela 69, LV-2015</p></div><div><img src="images/local_pin_blue.svg" alt=""><p>Шоссе Талсу 31-К9, LV-2016</p></div>';
