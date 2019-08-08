@@ -11,7 +11,7 @@
                 <div class="nav__top--right">
                     <a target="_blank" href="https://www.instagram.com/hobbydom_latvia/"><img class="nav__top--instagram" src="images/insta_heder.svg" alt=""></a>
                     <a target="_blank" href="https://www.facebook.com/hobbydomlv/"><img class="nav__top--facebook" src="images/fb_heder.svg" alt=""></a>
-                    <a href="/[[~17]]">НАШИ ЦЕНЫ</a>
+                    <!--a href="/[[~17]]">НАШИ ЦЕНЫ</a-->
                     <div class="nav__top--languages">RU
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
                             <title></title>

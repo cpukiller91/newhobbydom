@@ -4,8 +4,14 @@
 /** @var array $scriptProperties */
 /** @var modCookiesModal $modCookiesModal */
 
-$tpl = "tpl.modCookiesModal";
-if($_COOKIE["agree"] != "accept"){
-    return $modx->getChunk($tpl);
+if($_POST['accept1']){
+    setcookie ("agree","agree" );
 }
-//return $modx->getChunk($tpl);
+
+$tpl = "tpl.modCookiesModal";
+if($_COOKIE["agree"] != "agree"){
+    return $modx->getChunk($tpl);
+}else{
+    return $modx->getChunk("tpl.tag.google.modal");
+}
+
