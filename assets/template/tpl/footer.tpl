@@ -42,6 +42,7 @@
                 &parents=`[[++parent_classes]]`
                 &showHidden=`1`
                 &tpl=`@INLINE <li[[+classes]]><a href="/[[+link]]" [[+attributes]]>[[+menutitle]]</a></li>`
+                &limit=`8`
                 ]]
             </div>
             <div class="footer__col--bot">
@@ -56,7 +57,7 @@
                     <li><a href="">Мастер-класс «Кукла своими руками»</a></li>
                     <li><a href="">Первый весенний пикник</a></li>
                     <li><a href="">Окткрытое занятие «Робототехника»</a></li-->
-                    <li><a>Ищите совсем скоро на нашем сайте</a></li>
+                    <li>Ищите совсем скоро на нашем сайте</li>
                 </ul>
             </div>
             <div class="footer__col--bot">

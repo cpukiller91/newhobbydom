@@ -1,1 +1,1 @@
-<img src="/[[+tv.about-partner]]" alt="[[+pagetitle]]">
+<a href="[[+tv.partner-url]]"  target="_blank"><img src="/[[+tv.about-partner]]"  alt="[[+pagetitle]]"></a>
