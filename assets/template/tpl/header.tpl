@@ -1,36 +1,36 @@
 <header>
     [[!CookieModal]]
     <nav class="b-nav">
-        <div class="nav__top">
-            <div class="nav__top--wrapper">
-                <div class="nav__top--left">
-                    <img src="images/location_pin_heder.svg" alt=""><a target="_blank" href="googlemaps">Юрмала</a>
-                    <img src="images/phone.svg" alt=""><a href="tel:+(371)68000088">+(371)68000088</a><a href="tel:+(371)68000088">+(371)29000088</a>
-                    <img src="images/mail.svg" alt=""><a href="mailto:info@hobbydom.lv">info@hobbydom.lv</a>
-                </div>
-                <div class="nav__top--right">
-                    <a target="_blank" href="https://www.instagram.com/hobbydom_latvia/"><img class="nav__top--instagram" src="images/insta_heder.svg" alt=""></a>
-                    <a target="_blank" href="https://www.facebook.com/hobbydomlv/"><img class="nav__top--facebook" src="images/fb_heder.svg" alt=""></a>
-                    <a href="/[[~17]]">НАШИ ЦЕНЫ</a>
-                    <div class="nav__top--languages">RU
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
-                            <title></title>
-                            <g id="icomoon-ignore3">
-                            </g>
-                            <path fill="#fff" d="M225.835 414.165l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
-                        </svg>
-
-                        <div class="languages-content">
-                            <a href="/ru">RU</a><a href="/lv">LV</a>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
         <div class="nav__bottom">
             <div class="nav__wrapper">
+                <div class="nav__top">
+                    <div class="nav__top--wrapper">
+                        <div class="nav__top--left">
+                            <img src="images/location_pin_heder.svg" alt=""><a target="_blank" href="googlemaps">Юрмала</a>
+                            <img src="images/phone.svg" alt=""><a href="tel:+(371)68000088">+(371)68000088</a><a href="tel:+(371)68000088">+(371)29000088</a>
+                            <img src="images/mail.svg" alt=""><a href="mailto:info@hobbydom.lv">info@hobbydom.lv</a>
+                        </div>
+                        <div class="nav__top--right">
+                            <a target="_blank" href="https://www.instagram.com/hobbydom_latvia/"><img class="nav__top--instagram" src="images/insta_heder.svg" alt=""></a>
+                            <a target="_blank" href="https://www.facebook.com/hobbydomlv/"><img class="nav__top--facebook" src="images/fb_heder.svg" alt=""></a>
+                            <a href="/[[~17]]">НАШИ ЦЕНЫ</a>
+                            <div class="nav__top--languages">RU
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+                                    <title></title>
+                                    <g id="icomoon-ignore3">
+                                    </g>
+                                    <path fill="#fff" d="M225.835 414.165l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
+                                </svg>
+
+                                <div class="languages-content">
+                                    <a href="/ru">RU</a><a href="/lv">LV</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
                 <nav class="nav">
                     [[pdoMenu?
                     	&parents=`0`
