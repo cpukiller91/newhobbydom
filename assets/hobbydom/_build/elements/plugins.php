@@ -1,13 +1,13 @@
 <?php
 $path = 'core/elements/plugins/'. $this->config['name_lower'].'/';
 return [
-    'hobbydom' => [
-        'file' => 'hobbydom',
+    'modTalanto' => [
+        'file' => 'modtalanto',
         'description' => '',
         'events' => [
-            'OnManagerPageInit' => [],
+            'OnLoadWebDocument' => [],
         ],
-        'static_file'=>$path.'modedubase.php'
+        //'static_file'=>$path.'modedubase.php'
     ],
 
 ];

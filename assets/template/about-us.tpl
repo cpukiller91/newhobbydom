@@ -23,7 +23,7 @@
                                         <div class="article__slider--text">
                                             <div>
                                                 <span class="article__slider--page">1 / 2</span>
-                                                <p>Краткое описание учителя, его достижения и методы обучения.</p>
+                                                <!--p>Краткое описание учителя, его достижения и методы обучения.</p-->
                                             </div>
                                         </div>
                                         <div class="article__slider--controls">
@@ -63,7 +63,7 @@
             [[pdoResources?
                 &tpl=`about.worker.item`
                 &parents=`34`
-                &includeTVs=`about-avatar`
+                &includeTVs=`about-avatar,about-email,about-phone`
                 &includeContent=`1`
             ]]
 
@@ -73,21 +73,23 @@
             [[pdoResources?
                 &tpl=`about.worker.item`
                 &parents=`35`
-                &includeTVs=`about-avatar`
+                &includeTVs=`about-avatar,about-email,about-phone`
                 &includeContent=`1`
             ]]
         </div>
+
         <div class="about-us__category">
             <h5>НАШИ ПЕДАГОГИ</h5>
 
                 [[pdoResources?
                 &tpl=`about.worker.item`
                 &parents=`45`
-                &includeTVs=`about-avatar`
+                &includeTVs=`about-avatar,about-email,about-phone,class-list`
                 &includeContent=`1`
                 ]]
 
         </div>
+
         <div class="about-us__end-page">
             <img src="images/loader.svg" alt="">
             <p>Больше преподователей</p>
@@ -96,7 +98,7 @@
                 [[pdoResources?
                     &tpl=`about.partner.item`
                     &parents=`48`
-                    &includeTVs=`about-partner`
+                    &includeTVs=`about-partner,partner-url`
 
                 ]]
             </div>

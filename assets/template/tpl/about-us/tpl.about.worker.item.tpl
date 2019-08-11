@@ -1,8 +1,15 @@
 <div class="about-us__worker">
     <div class="about-us__avatar">
         <img src="/[[+tv.about-avatar]]" alt="">
-        <a class="about-us-category-link" href="#">Раннее музыкальное развитие</a>
-        <a class="about-us-category-link" href="#">Танцы</a>
+        <div class="teacher__contact--info">
+            [[+tv.about-email:notempty=`<a href="tel:[[+tv.about-email]]">[[+tv.about-email]]</a>`]]
+            [[+tv.about-phone:notempty=`<a href="tel:[[+tv.about-phone]">[[+tv.about-phone]]</a>`]]
+
+            [[+tv.class-list]]
+        </div>
+
+        <!--a class="about-us-category-link" href="#">Раннее музыкальное развитие</a>
+        <a class="about-us-category-link" href="#">Танцы</a-->
     </div>
     <div class="about-us__worker--info">
         <h6 class="worker-name">

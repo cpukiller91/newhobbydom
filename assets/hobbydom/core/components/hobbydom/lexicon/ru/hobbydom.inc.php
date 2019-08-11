@@ -92,6 +92,7 @@ $_lang['hobbydom_subscribe__checkbox_wrapper'] = '
     </div>
 </div>';
 
+$_lang['hobbydom_class_price_free'] = 'Бесплатно';
 $_lang['hobbydom_class_option_baby'] = 'до 2 лет';
 $_lang['hobbydom_class_option_schoolboy'] = '2-6 лет';
 $_lang['hobbydom_class_option_teen_girl'] = '6-18 лет';

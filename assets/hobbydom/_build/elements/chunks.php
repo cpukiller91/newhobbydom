@@ -15,5 +15,9 @@ return [
         'file' => 'tpl.cookie.modal',
         'description' => '',
         //'static_file' => $path.'tpl.cookie.modal.tpl',
+    ],'tpl.tag.google.modal' => [
+        'file' => 'tpl.tag.google.modal',
+        'description' => '',
+        //'static_file' => $path.'tpl.cookie.modal.tpl',
     ],
 ];
