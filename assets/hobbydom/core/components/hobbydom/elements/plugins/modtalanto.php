@@ -46,6 +46,7 @@ switch ($modx->event->name) {
         $msCategory = dataController($param,true);
         $modx->log(modX::LOG_LEVEL_INFO,'Log Talanto'.print_r($msCategory));
 
+
     foreach($_POST as $event){
         if($event['hidden'] == 0){
             $modTemplateVarTemplate = $modx->getObject("modTemplateVarTemplate");
