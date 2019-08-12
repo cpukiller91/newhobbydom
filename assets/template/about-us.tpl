@@ -63,17 +63,18 @@
             [[pdoResources?
                 &tpl=`about.worker.item`
                 &parents=`34`
-                &includeTVs=`about-avatar,about-email,about-phone`
+                &includeTVs=`about-avatar,about-email,about-phone1`
                 &includeContent=`1`
             ]]
 
         </div>
+
         <div class="about-us__category">
             <h5>наши администраторы</h5>
             [[pdoResources?
                 &tpl=`about.worker.item`
                 &parents=`35`
-                &includeTVs=`about-avatar,about-email,about-phone`
+                &includeTVs=`about-avatar,about-phone1,about-email`
                 &includeContent=`1`
             ]]
         </div>
@@ -84,7 +85,7 @@
                 [[pdoResources?
                 &tpl=`about.worker.item`
                 &parents=`45`
-                &includeTVs=`about-avatar,about-email,about-phone,class-list`
+                &includeTVs=`about-avatar,about-email,about-phone1,class-list`
                 &includeContent=`1`
                 ]]
 
@@ -92,7 +93,7 @@
 
         <div class="about-us__end-page">
             <img src="images/loader.svg" alt="">
-            <p>Больше преподователей</p>
+            <!--p>Больше преподователей</p-->
             <h6>наши партнеры</h6>
             <div>
                 [[pdoResources?

@@ -1,4 +1,4 @@
-<section class="feedback">
+<section class="feedback form-class">
     <div class="feedback__content">
         <h3>[[%hobbydom_feedback_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</h3>
         <div class="swiper-container swiper-container__feedback">
@@ -23,4 +23,13 @@
 
     </div>
     <img class="feedback__pattern" src="images/pattern.png" alt="">
+</section>
+<section class="subscribe__success success" style="display: none;">
+    <div class="sign-up__success&#45;&#45;inner">
+        <div class="sign-up__success&#45;&#45;block">
+            <p class="sign-up__success&#45;&#45;thanks">Спасибо, что подписались!</p>
+            <p>Готово ;)  Первое письмо уже летит к вам на почту.</p>
+            <img src="images/hobbydom_logo.svg" alt="">
+        </div>
+    </div>
 </section>

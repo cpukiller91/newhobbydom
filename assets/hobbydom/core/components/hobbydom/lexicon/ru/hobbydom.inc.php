@@ -12,8 +12,9 @@ $_lang['hobbydom_instagram'] = 'https://www.instagram.com/hobbydom_latvia/';
 $_lang['hobbydom_facebook'] = 'https://www.facebook.com/hobbydomlv/';
 
 $_lang['hobbydom_b_cookies__content'] = '
-<p>Мы стремимся предложить Вам наилучший сервис при работе с нашим сайтом. Для этого мы собираем и храним информацию о Вашем посещении сайта, так называемые cookies. Файлы cookies не собирают и не хранят никакую личную информацию о Вас. Используя этот сайт, Вы даёте свое согласие на использование cookies.</p>
-<p>Более подробно ознакомиться с информацией об использовании файлов cookies, а также нашей Политикой защиты персональных данных Вы можете здесь. На данном этапе Вы также можете отказаться от использования cookies и настроить необходимые параметры вашего браузера. Обращаем Ваше внимание, что при отказе от использования cookies некоторые функциональные возможности сайта могут оказаться недоступными.</p>';
+<p>Мы хотим, чтобы наш сайт был максимально удобен и полезен для вас.Для этого мы собираем и храним информацию о посещениях сайта, так называемые cookies. Файлы cookies не собирают и не хранят никакую личную информацию о вас. Используя этот сайт, вы даете свое согласие на использование cookies.</p>
+<p>Подробно ознакомиться с информацией об использовании файлов cookies, а также нашей Политикой защиты персональных данных можно <a target="_blank" href="/publichnyj-dogovor-oferty.html">здесь</a>. </p>
+<p>На данном этапе вы также можете отказаться от использования cookies и настроить необходимые параметры вашего браузера. Обращаем ваше внимание, что при отказе от использования cookies, некоторые функциональные возможности сайта могут оказаться недоступными для вас.</p>';
 $_lang['hobbydom_accept_cookies'] = 'Согласен';
 $_lang['hobbydom_turn_off_cookies'] = 'Не согласен';
 
@@ -84,11 +85,13 @@ $_lang['hobbydom_subscribe__checkbox_wrapper'] = '
 <div class="subscribe__checkbox-wrapper">
     <div class="subscribe__checkbox">
         <input class="check-input" type="checkbox" id="accept" name="accept3" required="">
-        <label class="check-label" for="accept3">Я знаком с <a class="accept-link" href="https://hobbydom.hosteam.pro/politika-konfidencialnosti.html">соглашением</a> и согласен с ним</label>
+        <label class="check-label" for="accept3">Я ознакомлен с 
+
+ <a class="accept-link" href="/politika-konfidencialnosti.html" target="_blank">политикой конфиденциальности</a></label>
     </div>
     <div class="subscribe__checkbox">
         <input class="check-input" type="checkbox" id="accept" required="" name="accept4">
-        <label class="check-label" for="accept4">Я соглашаюсь на <a class="accept-link" href="https://hobbydom.hosteam.pro/publichnyj-dogovor-oferty.html">обработку персональных данных</a></label>
+        <label class="check-label" for="accept4">Я соглашаюсь на <a class="accept-link" target="_blank" href="/publichnyj-dogovor-oferty.html">обработку персональных данных</a></label>
     </div>
 </div>';
 

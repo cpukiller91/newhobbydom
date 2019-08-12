@@ -10,7 +10,7 @@
                     [[%hobbydom_accept_cookies? &topic=`hobbydom` &namespace=`hobbydom` ]]</label>
             </div>
             <div class="cookies__checkbox">
-                <input class="cookies-input" type="submit" id="turn-off-cookies" required="" name="accept2">
+                <input class="cookies-input" type="button" id="turn-off-cookies" required="" name="accept2">
                 <label class="cookies-label" for="turn-off-cookies">
                     [[%hobbydom_turn_off_cookies? &topic=`hobbydom` &namespace=`hobbydom` ]]</label>
             </div>

@@ -14,7 +14,7 @@
     </div>
     <img src="images/article-main-img.jpg" alt="" class="article__main-img">
     <div class="header__share">
-        <a href="#">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://newhobbydom.hosteam.pro/[[~[[*id]]]]" target="_blank">
 
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
                 <title></title>

@@ -1,4 +1,4 @@
-<section class="contacts-form">
+<section class="contacts-form form-class">
     <div class="subscribe--inner">
         <form role="form" method="POST" action="[[~[[*id]]]]" class="">
             <div class="modal-body">
@@ -13,6 +13,15 @@
                 <button type="submit" class="callback-submit button button--green">[[%hobbydom_contact_form_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</button><i></i>
             </div>
         </form>
+    </div>
+</section>
+<section class="contacts__success success" style="display: none;">
+    <div class="sign-up__success--inner">
+        <div class="sign-up__success--block">
+            <p class="sign-up__success--thanks">спасибо за обращение!</p>
+            <p></p>
+            <img src="images/hobbydom_logo.svg" alt="">
+        </div>
     </div>
 </section>
 
