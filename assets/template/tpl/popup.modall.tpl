@@ -226,3 +226,10 @@
     </div>
 </div>
 <div class="popup-substrate"></div>
+<signup-popup v-if="popupOpened"
+              @close="onPopupClose"
+              :class="{ success: popupFormSuccess }">
+    <signup-form :types="types"
+                 @success="onPopupFormSuccess"
+    ></signup-form>
+</signup-popup>
