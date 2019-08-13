@@ -24,6 +24,8 @@ function dataController($param,$save=false){
 
 switch ($modx->event->name) {
     case 'OnLoadWebDocument':
+        //$modTemplateVarTemplate = $modx->getObject("modTemplateVarTemplate");
+
         $class_list = $modx->getObject("modTemplate", array("templatename" => "Список Класов"));
         $class_detail = $modx->getObject("modTemplate", array("templatename" => "Класс подробно"));
 //        $templatEvent = $modx->getObject("modTemplate", array("templatename" => "Занятие Таланто"));
@@ -44,27 +46,43 @@ switch ($modx->event->name) {
         );
 
         $msCategory = dataController($param,true);
-        $modx->log(modX::LOG_LEVEL_INFO,'Log Talanto'.print_r($msCategory));
-
 
     foreach($_POST as $event){
         if($event['hidden'] == 0){
-            $modTemplateVarTemplate = $modx->getObject("modTemplateVarTemplate");
 
-//            $param = array(
-//                "key" => "msCategory",
-//                "filter" => array(
-//                    "parent" => $msCategory['id'],
-//                    "pagetitle" => $event['subject_name']
-//                ),
-//                "data" => array(
-//                    "parent" => $msCategory['id'],
-//                    "template" => $class_list->get('id'),
-//                    "pagetitle" => $event['subject_name'],
-//                    //"alias" => "classes"
-//                )
-//            );
-            $modx->log(modX::LOG_LEVEL_INFO,'Log Talanto'.print_r($param));
+            if($modTemplateVarResource = $modx->getObject("modTemplateVarResource",array("value" => $event['subject_id']))){
+                $msProduct = array(
+                    "key" => "msProduct",
+                    "filter" => array(
+                        "parent" => $modTemplateVarResource->get("contentid"),
+                        "alias" => $event['id']
+                    ),
+                    "data" => array(
+                        "parent" => $modTemplateVarResource->get("contentid"),
+                        "template" => 11,
+                        "pagetitle" => $event['name'],
+                        "alias" => $event['id'],
+                        "pub_date" => strtotime($event['date_start']),
+                        "unpub_date" => strtotime($event['date_finish']),
+                        "price" => $event['cost'],
+                        'published' => true,
+                        'deleted' => false,
+                        'hidemenu' => false,
+                        'createdon' => time(),
+                        'source' => '2',
+                        "show_in_tree" => 0
+                    )
+                );
+                $msProductRes = dataController($msProduct,true);
+                if($resource = $modx->getObject("msProduct", $msProductRes["id"])){
+                    $resource->setTVvalue("employee_names", $event['employee_names']);
+                    $resource->setTVvalue("audience_system", $event['audience_system']);
+                    $resource->save();
+                }
+                $modx->log(modX::LOG_LEVEL_INFO,'Log Talanto'.print_r($msProductRes,true));
+            }
+
+
 
         }
     }
