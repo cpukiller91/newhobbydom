@@ -84,6 +84,7 @@
                     &parents=`[[++parent_classes]]`
                     &includeTVs=`class-user-option,class-image,price`
                     &limit=`12`
+                    &depth=`0`
                     &pageNavVar=`page.nav`
                     &tplPagePrev=`@INLINE <div class="pagintaion__left"><a href="/[[+href]]"><img src="images/arrow_left_grey.svg" alt=""><p>назад</p></a></div>`
                     &tplPageNext=`@INLINE <div class="pagintaion__right"><a href="/[[+href]]"><p>далее</p><img src="images/arrow_right_grey.svg" alt=""></a></div>`

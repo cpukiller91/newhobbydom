@@ -47,7 +47,7 @@ if (!is_object($modx) || !($modx instanceof modX)) {
 $modx->startTime= $tstart;
 
 /* Initialize the default 'web' context */
-$modx->initialize('web');
+$modx->initialize('lv');
 
 /* execute the request handler */
 if (!MODX_API_MODE) {

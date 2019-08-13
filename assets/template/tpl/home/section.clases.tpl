@@ -8,8 +8,9 @@
                 &parents=`[[++parent_classes]]`
                 &includeTVs=`class-user-option,class-image,price`
                 &limit=`6`
+                &depth=`0`
             ]]
         </div>
-
+        <a href="/[[~4]]" class="button button--green">[[%hobbydom_clases_all_article? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
     </div>
 </section>
