@@ -39,10 +39,11 @@
             <div class="footer__col--top">
                 <h6>[[%hobbydom_clases_home_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</h6>
                 [[pdoMenu?
-                &parents=`[[++parent_classes]]`
-                &showHidden=`1`
-                &tpl=`@INLINE <li[[+classes]]><a href="/[[+link]]" [[+attributes]]>[[+menutitle]]</a></li>`
-                &limit=`8`
+                    &parents=`[[++parent_classes]]`
+                    &showHidden=`1`
+                    &tpl=`@INLINE <li[[+classes]]><a href="/[[+link]]" [[+attributes]]>[[+menutitle]]</a></li>`
+                    &limit=`8`
+                    &level=`1`
                 ]]
             </div>
             <div class="footer__col--bot">

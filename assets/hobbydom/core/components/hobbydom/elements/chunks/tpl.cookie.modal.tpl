@@ -1,7 +1,7 @@
 <div class="b__cookies">
     <div class="b__cookies--content">
         [[%hobbydom_b_cookies__content? &topic=`hobbydom` &namespace=`hobbydom` ]]
-        <form method="POST">
+        <!--form method="POST">
         <div class="cookies__checkboxes">
             <div class="cookies__checkbox">
                 <input type="hidden" name="accept1" value="accept">
@@ -15,6 +15,6 @@
                     [[%hobbydom_turn_off_cookies? &topic=`hobbydom` &namespace=`hobbydom` ]]</label>
             </div>
         </div>
-        </form>
+        </form-->
     </div>
 </div>

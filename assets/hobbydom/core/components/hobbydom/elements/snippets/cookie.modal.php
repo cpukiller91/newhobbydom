@@ -17,11 +17,13 @@ if($_POST['accept1']){
 //print_r($_COOKIE);
 //echo '</pre>';
 //echo $url;
-$tpl = "tpl.modCookiesModal";
-if($_COOKIE["agree"] != "agree"){
+//$tpl = "tpl.modCookiesModal";
+//if($_COOKIE["agree"] != "agree"){
+//
+//    return $modx->getChunk($tpl);
+//}else{
+//    return $modx->getChunk("tpl.tag.google.modal");
+//}
 
-    return $modx->getChunk($tpl);
-}else{
-    return $modx->getChunk("tpl.tag.google.modal");
-}
-
+echo $modx->getChunk($tpl);
+echo $modx->getChunk("tpl.tag.google.modal");

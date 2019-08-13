@@ -9,5 +9,13 @@ return [
         ],
         //'static_file'=>$path.'modedubase.php'
     ],
+    'modAJAX' => [
+        'file' => 'modajax',
+        'description' => '',
+        'events' => [
+            'OnLoadWebDocument' => [],
+        ],
+        //'static_file'=>$path.'modedubase.php'
+    ],
 
 ];
