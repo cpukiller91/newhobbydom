@@ -11,7 +11,7 @@ $_lang['hobbydom_header_mail'] = 'info@hobbydom.lv';
 $_lang['hobbydom_instagram'] = 'https://www.instagram.com/hobbydom_latvia/';
 $_lang['hobbydom_facebook'] = 'https://www.facebook.com/hobbydomlv/';
 
-$_lang['hobbydom_b_cookies__content'] = '<p>Продолжая использовать сайт, Вы даёте своё согласие на работу с файлами cookie и соглашаетесь с <a target="_blank" href="/politika-konfidencialnosti.html">политикой конфиденциальности.</a>';
+$_lang['hobbydom_b_cookies__content'] = '<p>Продолжая использовать сайт, Вы даёте своё согласие на работу с файлами cookie и соглашаетесь с <a target="_blank" href="/lv/politika-konfidencialnosti.html">политикой конфиденциальности.</a>';
    /* '
 <p>Мы хотим, чтобы наш сайт был максимально удобен и полезен для вас.Для этого мы собираем и храним информацию о посещениях сайта, так называемые cookies. Файлы cookies не собирают и не хранят никакую личную информацию о вас. Используя этот сайт, вы даете свое согласие на использование cookies.</p>
 <p>Подробно ознакомиться с информацией об использовании файлов cookies, а также нашей Политикой защиты персональных данных можно <a target="_blank" href="/publichnyj-dogovor-oferty.html">здесь</a>. </p>
@@ -44,12 +44,12 @@ $_lang['hobbydom_clases_next'] = 'nākošie';
 $_lang['hobbydom_clases_up'] = 'nodarbības';
 
 
-$_lang['hobbydom_parent_news'] = '7';
+$_lang['hobbydom_parent_news'] = '189';
 $_lang['hobbydom_news_title'] = 'Ziņas';
 $_lang['hobbydom_all_news'] = 'Visas ziņas';
 $_lang['hobbydom_news_other'] = 'Citas ziņas';
 
-$_lang['hobbydom_parent_feedback'] = '13';
+$_lang['hobbydom_parent_feedback'] = '203';
 $_lang['hobbydom_feedback_title'] = 'Atsauksmes';
 
 $_lang['hobbydom_footer_col_top'] = '
@@ -67,10 +67,10 @@ PARXLV22 AS "Citadele banka"<br>
 LV62PARX0020950320001</p>
 </p>';
 
-$_lang['hobbydom_footer_top_about'] = '4,31,8,9';
+$_lang['hobbydom_footer_top_about'] = '193,199,215';
 $_lang['hobbydom_menu_mobail'] = '4,7,8,9';
 $_lang['hobbydom_footer_top_hobbydom_title'] = 'Par Hobbydom';
-$_lang['hobbydom_footer_top_fast_res'] = '4,7';
+$_lang['hobbydom_footer_top_fast_res'] = '189';
 $_lang['hobbydom_footer_top_fast_link'] = 'Ātrās saites';
 
 $_lang['hobbydom_contact_form_title'] = 'напишите нам';
@@ -87,11 +87,11 @@ $_lang['hobbydom_subscribe__checkbox_wrapper'] = '
         <input class="check-input" type="checkbox" id="accept" name="accept3" required="">
         <label class="check-label" for="accept3">Я ознакомлен с 
 
- <a class="accept-link" href="/politika-konfidencialnosti.html" target="_blank">политикой конфиденциальности</a></label>
+ <a class="accept-link" href="/lv/politika-konfidencialnosti.html" target="_blank">политикой конфиденциальности</a></label>
     </div>
     <div class="subscribe__checkbox">
         <input class="check-input" type="checkbox" id="accept" required="" name="accept4">
-        <label class="check-label" for="accept4">Я соглашаюсь на <a class="accept-link" target="_blank" href="/publichnyj-dogovor-oferty.html">обработку персональных данных</a></label>
+        <label class="check-label" for="accept4">Я соглашаюсь на <a class="accept-link" target="_blank" href="/lv/publichnyj-dogovor-oferty.html">обработку персональных данных</a></label>
     </div>
 </div>';
 
@@ -102,3 +102,11 @@ $_lang['hobbydom_class_option_teen_girl'] = '6-18 gadiem';
 $_lang['hobbydom_class_option_women'] = '18 + gadiem';
 $_lang['hobbydom_class_free_title'] = 'Pirmā nodarbība ir bezmaksas!';
 $_lang['hobbydom_class_contacts'] = '<div><img src="images/local_pin_blue.svg" alt=""><p>Jūrmala, Slokas iela 69, LV-2015</p></div><div><img src="images/local_pin_blue.svg" alt=""><p>Шоссе Талсу 31-К9, LV-2016</p></div>';
+
+
+$_lang['hobbydom_contact_timer'] = 'Пн-Пт 9:00 - 18:00, Сб-Вс Выходные';
+$_lang['hobbydom_contact_map_title'] = 'Cмотреть на карте';
+$_lang['hobbydom_footer_policy'] = '<a href="/ru/politika-konfidencialnosti.html">Политика конфиденциальности</a>';
+$_lang['hobbydom_footer_offers'] = '<a href="/ru/publichnyij-dogovor-ofertyi.html">Публичный договор оферты</a>';
+$_lang['hobbydom_last_event'] = 'Ближайшие мероприятия';
+$_lang['hobbydom_event_search'] = 'Ищите совсем скоро на нашем сайте';

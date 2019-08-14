@@ -11,7 +11,12 @@
             <h1>[[*pagetitle]]</h1>
         </div>
         <div class="contacts__left">
-            [[*content]]
+            [[pdoResources?
+                &tpl=`tpl.contact`
+                &parents=`[[*id]]`
+                &includeTVs=`contacts-map,contacts-prev`
+            ]]
+            
         </div>
     </section>
     [[!callBack?

@@ -25,7 +25,10 @@
                                 </svg>
 
                                 <div class="languages-content">
-                                    <a href="/ru" style="color: #36baa2;">RU</a><a href="/lv">LV</a>
+
+                                    [[*id:is=`[[++site_start]]`:then=`<a [[++cultureKey:is=`ru`:then=`style="color: #36baa2;"`]] href="/ru/">RU</a><a [[++cultureKey:is=`lv`:then=`style="color: #36baa2;"`]] href="/lv/">LV</a>`]]
+                                    [[*id:isnot=`[[++site_start]]`:then=`<a [[++cultureKey:is=`ru`:then=`style="color: #36baa2;"`]] href="/ru/[[~[[*id]]]]" style="color: #36baa2;">RU</a><a [[++cultureKey:is=`lv`:then=`style="color: #36baa2;"`]] href="/lv/[[~[[*id]]]]">LV</a>`]]
+
                                 </div>
                             </div>
                         </div>
@@ -58,7 +61,8 @@
                             <path fill="#36baa5" d="M225.835 414.165l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                         </svg>
                         <div class="mobile--languages-content">
-                            <a href="/ru" style="color: #36baa2;">RU</a><a href="/lv">LV</a>
+                            [[*id:is=`[[++site_start]]`:then=`<a [[++cultureKey:is=`ru`:then=`style="color: #36baa2;"`]] href="/ru/">RU</a><a [[++cultureKey:is=`lv`:then=`style="color: #36baa2;"`]] href="/lv/">LV</a>`]]
+                            [[*id:isnot=`[[++site_start]]`:then=`<a [[++cultureKey:is=`ru`:then=`style="color: #36baa2;"`]] href="/ru/[[~[[*id]]]]" style="color: #36baa2;">RU</a><a [[++cultureKey:is=`lv`:then=`style="color: #36baa2;"`]] href="/lv/[[~[[*id]]]]">LV</a>`]]
                         </div>
                     </div>
 

@@ -41,7 +41,7 @@
                     &includeTVs=`class-user-option,class-image,price`
                 ]]
             </div>
-            <a href="[[~[[++parent_classes]]]]" class="button button--green article__class--button">все занятия</a>
+            <a href="/[[++cultureKey]]/[[~[[++parent_classes]]]]" class="button button--green article__class--button">все занятия</a>
         </div>
         <!--div class="article__events">
             <h3>наши мероприятия</h3>

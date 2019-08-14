@@ -7,7 +7,7 @@
                 &parents=`0`
                 &resources=`[[%hobbydom_footer_top_about? &topic=`hobbydom` &namespace=`hobbydom` ]]`
                 &showHidden=`1`
-                &tpl=`@INLINE <li[[+classes]]><a href="/[[+link]]" [[+attributes]]>[[+menutitle]]</a></li>`
+                &tpl=`@INLINE <li[[+classes]]><a href="/[[++cultureKey]]/[[+link]]" [[+attributes]]>[[+menutitle]]</a></li>`
                 ]]
             </div>
             <div class="footer__col--mid hide-on-desktop">
@@ -28,11 +28,11 @@
                 &parents=`0`
                 &resources=`[[%hobbydom_footer_top_fast_res? &topic=`hobbydom` &namespace=`hobbydom` ]]`
                 &showHidden=`1`
-                &tpl=`@INLINE <li[[+classes]]><a href="/[[+link]]" [[+attributes]]>[[+menutitle]]</a></li>`
+                &tpl=`@INLINE <li[[+classes]]><a href="/[[++cultureKey]]/[[+link]]" [[+attributes]]>[[+menutitle]]</a></li>`
                 ]]
             </div>
             <div class="footer__col--bot">
-                <a href="/[[~32]]">Политика конфиденциальности</a>
+                [[%hobbydom_footer_policy? &topic=`hobbydom` &namespace=`hobbydom` ]]
             </div>
         </div>
         <div class="footer__col hide-on-mobile">
@@ -41,24 +41,24 @@
                 [[pdoMenu?
                     &parents=`[[++parent_classes]]`
                     &showHidden=`1`
-                    &tpl=`@INLINE <li[[+classes]]><a href="/[[+link]]" [[+attributes]]>[[+menutitle]]</a></li>`
+                    &tpl=`@INLINE <li[[+classes]]><a href="/[[++cultureKey]]/[[+link]]" [[+attributes]]>[[+menutitle]]</a></li>`
                     &limit=`8`
                     &level=`1`
                 ]]
             </div>
             <div class="footer__col--bot">
-                <a href="/[[~33]]">Публичный договор оферты</a>
+                [[%hobbydom_footer_offers? &topic=`hobbydom` &namespace=`hobbydom` ]]
             </div>
         </div>
         <div class="footer__col hide-on-mobile">
             <div class="footer__col--top">
-                <h6>Ближайшие мероприятия</h6>
+                <h6>[[%hobbydom_last_event? &topic=`hobbydom` &namespace=`hobbydom` ]]</h6>
                 <ul>
                     <!--<li><a href="">Лекция для будущих мам</a></li>
                     <li><a href="">Мастер-класс «Кукла своими руками»</a></li>
                     <li><a href="">Первый весенний пикник</a></li>
                     <li><a href="">Окткрытое занятие «Робототехника»</a></li-->
-                    <li>Ищите совсем скоро на нашем сайте</li>
+                    <li>[[%hobbydom_event_search? &topic=`hobbydom` &namespace=`hobbydom` ]]</li>
                 </ul>
             </div>
             <div class="footer__col--bot">
@@ -81,8 +81,8 @@
                     <img src="images/fb_footer.svg" alt=""></a>
             </div>
             <div class="footer__col--bot hide-on-desktop">
-                <a href="/[[~32]]" target="_blank">Политика конфиденциальности</a>
-                <a href="/[[~33]]">Публичный договор оферты</a>
+                [[%hobbydom_footer_policy? &topic=`hobbydom` &namespace=`hobbydom` ]]
+                [[%hobbydom_footer_offers? &topic=`hobbydom` &namespace=`hobbydom` ]]
             </div>
         </div>
     </div>

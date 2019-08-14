@@ -92,7 +92,7 @@
         </div>
 
         <div class="about-us__end-page">
-            <img src="images/loader.svg" alt="">
+            <!--img src="images/loader.svg" alt=""-->
             <!--p>Больше преподователей</p-->
             <h6>наши партнеры</h6>
             <div>

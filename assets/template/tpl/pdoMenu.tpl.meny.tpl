@@ -8,4 +8,4 @@
     </a>
 </li>
 `]]
-[[+id:isnot=`[[++site_start]]`:then=`<li[[+classes]]> <a href="/[[+link]]" [[+attributes]]>[[+menutitle]]</a></li>`]]
+[[+id:isnot=`[[++site_start]]`:then=`<li[[+classes]]> <a href="/[[++cultureKey]]/[[+link]]" [[+attributes]]>[[+menutitle]]</a></li>`]]

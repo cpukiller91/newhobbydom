@@ -11,7 +11,7 @@ $_lang['hobbydom_header_mail'] = 'info@hobbydom.lv';
 $_lang['hobbydom_instagram'] = 'https://www.instagram.com/hobbydom_latvia/';
 $_lang['hobbydom_facebook'] = 'https://www.facebook.com/hobbydomlv/';
 
-$_lang['hobbydom_b_cookies__content'] = '<p>Продолжая использовать сайт, Вы даёте своё согласие на работу с файлами cookie и соглашаетесь с <a target="_blank" href="/politika-konfidencialnosti.html">политикой конфиденциальности.</a>';
+$_lang['hobbydom_b_cookies__content'] = '<p>Продолжая использовать сайт, Вы даёте своё согласие на работу с файлами cookie и соглашаетесь с <a target="_blank" href="/ru/politika-konfidencialnosti.html">политикой конфиденциальности.</a>';
    /* '
 <p>Мы хотим, чтобы наш сайт был максимально удобен и полезен для вас.Для этого мы собираем и храним информацию о посещениях сайта, так называемые cookies. Файлы cookies не собирают и не хранят никакую личную информацию о вас. Используя этот сайт, вы даете свое согласие на использование cookies.</p>
 <p>Подробно ознакомиться с информацией об использовании файлов cookies, а также нашей Политикой защиты персональных данных можно <a target="_blank" href="/publichnyj-dogovor-oferty.html">здесь</a>. </p>
@@ -49,7 +49,7 @@ $_lang['hobbydom_news_title'] = 'Новости';
 $_lang['hobbydom_all_news'] = 'Все новости';
 $_lang['hobbydom_news_other'] = 'Другие новости';
 
-$_lang['hobbydom_parent_feedback'] = '13';
+$_lang['hobbydom_parent_feedback'] = '14';
 $_lang['hobbydom_feedback_title'] = 'Отзывы';
 
 $_lang['hobbydom_footer_col_top'] = '
@@ -87,11 +87,11 @@ $_lang['hobbydom_subscribe__checkbox_wrapper'] = '
         <input class="check-input" type="checkbox" id="accept" name="accept3" required="">
         <label class="check-label" for="accept3">Я ознакомлен с 
 
- <a class="accept-link" href="/politika-konfidencialnosti.html" target="_blank">политикой конфиденциальности</a></label>
+ <a class="accept-link" href="/ru/politika-konfidencialnosti.html" target="_blank">политикой конфиденциальности</a></label>
     </div>
     <div class="subscribe__checkbox">
         <input class="check-input" type="checkbox" id="accept" required="" name="accept4">
-        <label class="check-label" for="accept4">Я соглашаюсь на <a class="accept-link" target="_blank" href="/publichnyj-dogovor-oferty.html">обработку персональных данных</a></label>
+        <label class="check-label" for="accept4">Я соглашаюсь на <a class="accept-link" target="_blank" href="/ru/publichnyj-dogovor-oferty.html">обработку персональных данных</a></label>
     </div>
 </div>';
 
@@ -102,3 +102,11 @@ $_lang['hobbydom_class_option_teen_girl'] = '6-18 лет';
 $_lang['hobbydom_class_option_women'] = '18+ лет';
 $_lang['hobbydom_class_free_title'] = 'Певрое занятие бесплатное!';
 $_lang['hobbydom_class_contacts'] = '<div><img src="images/local_pin_blue.svg" alt=""><p>Slokas iela 69, LV-2015</p></div><div><img src="images/local_pin_blue.svg" alt=""><p>Шоссе Талсу 31-К9, LV-2016</p></div>';
+
+
+$_lang['hobbydom_contact_timer'] = 'Пн-Пт 9:00 - 18:00, Сб-Вс Выходные';
+$_lang['hobbydom_contact_map_title'] = 'Cмотреть на карте';
+$_lang['hobbydom_footer_policy'] = '<a href="/ru/politika-konfidencialnosti.html">Политика конфиденциальности</a>';
+$_lang['hobbydom_footer_offers'] = '<a href="/ru/publichnyij-dogovor-ofertyi.html">Публичный договор оферты</a>';
+$_lang['hobbydom_last_event'] = 'Ближайшие мероприятия';
+$_lang['hobbydom_event_search'] = 'Ищите совсем скоро на нашем сайте';
