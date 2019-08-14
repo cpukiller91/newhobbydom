@@ -6,7 +6,7 @@
                 <div class="nav__top">
                     <div class="nav__top--wrapper">
                         <div class="nav__top--left">
-                            <img src="images/location_pin_heder.svg" alt=""><a target="_blank" href="/[[~9]]">Юрмала</a>
+                            [[%hobbydom_header_yrmala? &topic=`hobbydom` &namespace=`hobbydom` ]]
                             <img src="images/phone.svg" alt=""><a href="tel:+(371)68000088">+(371)68000088</a><a href="tel:+(371)68000088">+(371)29000088</a>
                             <img src="images/mail.svg" alt=""><a href="mailto:info@hobbydom.lv">info@hobbydom.lv</a>
                         </div>
@@ -88,7 +88,7 @@
                             </li-->
                         </ul>
                         <ul class="mobile-menu__icons--right">
-                            <li><a href="[[~9]]">Юрмала</a</li>
+                            <li><a href="#">Юрмала</a</li>
                             <li>
                                 <a class="mobile-menu-mail" href="mailto:info@hobbydom.lv">info@hobbydom.lv</a>
                             </li>

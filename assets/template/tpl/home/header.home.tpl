@@ -6,7 +6,7 @@
                 <div class="nav__top">
                     <div class="nav__top--wrapper">
                         <div class="nav__top--left">
-                            <img src="images/location_pin_heder.svg" alt=""><a target="_blank" href="/[[~9]]">Юрмала</a>
+                            [[%hobbydom_header_yrmala? &topic=`hobbydom` &namespace=`hobbydom` ]]
                             <img src="images/phone.svg" alt="">
                             <a href="tel:[[%hobbydom_header_phone1? &topic=`hobbydom` &namespace=`hobbydom` ]]">[[%hobbydom_header_phone1? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
                             <a href="tel:[[%hobbydom_header_phone2? &topic=`hobbydom` &namespace=`hobbydom` ]]">[[%hobbydom_header_phone2? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>

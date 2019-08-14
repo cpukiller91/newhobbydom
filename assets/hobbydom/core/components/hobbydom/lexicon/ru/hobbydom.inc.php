@@ -103,7 +103,8 @@ $_lang['hobbydom_class_option_women'] = '18+ лет';
 $_lang['hobbydom_class_free_title'] = 'Певрое занятие бесплатное!';
 $_lang['hobbydom_class_contacts'] = '<div><img src="images/local_pin_blue.svg" alt=""><p>Slokas iela 69, LV-2015</p></div><div><img src="images/local_pin_blue.svg" alt=""><p>Шоссе Талсу 31-К9, LV-2016</p></div>';
 
-
+$_lang['hobbydom_header_yrmala'] = '<img src="images/location_pin_heder.svg" alt=""><a target="_blank" href="#">Юрмала</a>';
+$_lang['hobbydom_contact_link'] = '<a href="/ru/contacts/" class="button button--yellow">перейти в контакты</a>';
 $_lang['hobbydom_contact_timer'] = 'Пн-Пт 9:00 - 18:00, Сб-Вс Выходные';
 $_lang['hobbydom_contact_map_title'] = 'Cмотреть на карте';
 $_lang['hobbydom_footer_policy'] = '<a href="/ru/politika-konfidencialnosti.html">Политика конфиденциальности</a>';
