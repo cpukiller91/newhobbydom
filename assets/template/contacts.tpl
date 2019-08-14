@@ -35,6 +35,6 @@
     [[$popup.modall]]
 </main>
 
-<script type="text/javascript" src="https://newhobbydom.hosteam.pro/assets/template/js/bundle.js"></script>
+<script type="text/javascript" src="https://newhobbydom.hosteam.pro/assets/template/js/bundle_[[++cultureKey]].js"></script>
 </body>
 </html>
