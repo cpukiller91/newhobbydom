@@ -5,9 +5,9 @@
             [[pdoResources?
                 &tpl=`tpl.news.item`
                 &parents=`[[%hobbydom_parent_news? &topic=`hobbydom` &namespace=`hobbydom` ]]`
-                &includeTVs=`article-prev`
+                &includeTVs=`article-prev,article-tag`
             ]]
         </div>
-        <a class="button button--pink" href="/[[~[[%hobbydom_parent_news? &topic=`hobbydom` &namespace=`hobbydom` ]]]]">[[%hobbydom_all_news? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
+        <a class="button button--pink" href="/[[++cultureKey]]/[[~[[%hobbydom_parent_news? &topic=`hobbydom` &namespace=`hobbydom` ]]]]">[[%hobbydom_all_news? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
     </div>
 </section>

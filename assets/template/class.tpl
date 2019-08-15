@@ -20,7 +20,13 @@
     <div class="article__right">
         <div class="class__right--info">
             <div class="class__right--row">
-                [[%hobbydom_class_contacts? &topic=`hobbydom` &namespace=`hobbydom` ]]
+                [[*contact-address-id]]
+                [[pdoResources?
+                	&tpl=`tpl.contacts.class`
+                    &parents=`9,199`
+                	&resources=`[[*contact-address-id]]`
+                ]]
+
             </div>
             <div class="class__right--row class__right--row-icons">
                 [[ClassIcons?&tv=`[[*class-user-option]]` &allTitle=`1` &prefix=`_blue`]]

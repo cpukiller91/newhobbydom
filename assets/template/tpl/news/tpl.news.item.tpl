@@ -6,7 +6,7 @@
         <div class="news__tile--content">
             <a href="/[[++cultureKey]]/[[~[[+id]]]]" class="news__tile--content-bold">[[+pagetitle]]</a>
             <p class="news__tile--content-lite">[[+introtext]]</p>
-            <p class="news__tile--content-articles">статьи</p>
+            <p class="news__tile--content-articles">[[+tv.article-tag]]</p>
         </div>
     </div>
 </div>

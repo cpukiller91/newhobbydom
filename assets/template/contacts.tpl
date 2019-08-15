@@ -14,7 +14,7 @@
             [[pdoResources?
                 &tpl=`tpl.contact`
                 &parents=`[[*id]]`
-                &includeTVs=`contacts-map,contacts-prev`
+                &includeTVs=`contacts-map,contacts-prev,contacts-map-url`
             ]]
             
         </div>

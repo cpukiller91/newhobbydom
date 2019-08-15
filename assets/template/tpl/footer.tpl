@@ -68,11 +68,7 @@
         <div class="footer__col">
             <div class="footer__col--top">
                 [[%hobbydom_footer_col_top? &topic=`hobbydom` &namespace=`hobbydom` ]]
-                <small>
-                    total time: [^t^]<br/>
-                    query time: [^qt^]<br/>
-                    queries: [^q^]
-                </small>
+
             </div>
             <div class="footer__col--bot hide-on-mobile">
                 <a class="footer--icons" href="[[%hobbydom_instagram? &topic=`hobbydom` &namespace=`hobbydom` ]]">

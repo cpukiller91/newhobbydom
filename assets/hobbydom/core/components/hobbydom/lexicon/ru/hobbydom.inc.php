@@ -48,6 +48,8 @@ $_lang['hobbydom_parent_news'] = '7';
 $_lang['hobbydom_news_title'] = 'Новости';
 $_lang['hobbydom_all_news'] = 'Все новости';
 $_lang['hobbydom_news_other'] = 'Другие новости';
+$_lang['hobbydom_news_share_face'] = 'Поделиться';
+$_lang['hobbydom_callback_submit'] = 'ПОДПИСАТЬСЯ';
 
 $_lang['hobbydom_parent_feedback'] = '14';
 $_lang['hobbydom_feedback_title'] = 'Отзывы';
@@ -100,7 +102,7 @@ $_lang['hobbydom_class_option_baby'] = 'до 2 лет';
 $_lang['hobbydom_class_option_schoolboy'] = '2-6 лет';
 $_lang['hobbydom_class_option_teen_girl'] = '6-18 лет';
 $_lang['hobbydom_class_option_women'] = '18+ лет';
-$_lang['hobbydom_class_free_title'] = 'Певрое занятие бесплатное!';
+$_lang['hobbydom_class_free_title'] = 'Первое занятие бесплатное!';
 $_lang['hobbydom_class_contacts'] = '<div><img src="images/local_pin_blue.svg" alt=""><p>Slokas iela 69, LV-2015</p></div><div><img src="images/local_pin_blue.svg" alt=""><p>Шоссе Талсу 31-К9, LV-2016</p></div>';
 
 $_lang['hobbydom_header_yrmala'] = '<img src="images/location_pin_heder.svg" alt=""><a target="_blank" href="#">Юрмала</a>';
@@ -111,3 +113,12 @@ $_lang['hobbydom_footer_policy'] = '<a href="/ru/politika-konfidencialnosti.html
 $_lang['hobbydom_footer_offers'] = '<a href="/ru/publichnyij-dogovor-ofertyi.html">Публичный договор оферты</a>';
 $_lang['hobbydom_last_event'] = 'Ближайшие мероприятия';
 $_lang['hobbydom_event_search'] = 'Ищите совсем скоро на нашем сайте';
+
+$_lang['hobbydom_booss_club_title'] = 'руководитель клуба';
+$_lang['hobbydom_booss_club_id'] = '34';
+$_lang['hobbydom_admin_club_title'] = 'наши администраторы';
+$_lang['hobbydom_admin_club_id'] = '35';
+$_lang['hobbydom_prepod_club_title'] = 'НАШИ ПЕДАГОГИ';
+$_lang['hobbydom_prepod_club_id'] = '45';
+$_lang['hobbydom_partner_club_title'] = 'наши партнеры';
+$_lang['hobbydom_partner_club_id'] = '48';

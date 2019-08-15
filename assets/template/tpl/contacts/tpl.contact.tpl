@@ -16,7 +16,7 @@
         </div>
         <div class="contacts__tile--row"><img src="images/email.svg" alt="" /><a href="mailto:[[%hobbydom_header_mail? &topic=`hobbydom` &namespace=`hobbydom` ]]">[[%hobbydom_header_mail? &topic=`hobbydom` &namespace=`hobbydom` ]]</a></div>
         <div class="contacts__tile--row contacts__tile--row-link"><img src="images/map.svg" alt="" />
-            <a href="#">[[%hobbydom_contact_map_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
+            <a target="_blank" href="[[+tv.contacts-map-url]]">[[%hobbydom_contact_map_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
         </div>
         <!--div class="contacts__tile--row contacts__tile--row-link"><img src="images/calendar.svg" alt="" /><a href="shedule.html">Расписание занятий и мероприятий клуба</a></div--></div>
 </div>

@@ -17,7 +17,7 @@
             [[pdoResources?
                 &tpl=`tpl.news.item`
                 &parents=`[[%hobbydom_parent_news? &topic=`hobbydom` &namespace=`hobbydom` ]]`
-                &includeTVs=`article-prev`
+                &includeTVs=`article-prev,article-tag`
             ]]
         </div>
         <!--div class="search__loader">

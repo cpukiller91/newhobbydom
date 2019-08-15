@@ -10,9 +10,9 @@
     <p class="article__news">[[%hobbydom_news_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</p>
     <h1>[[*pagetitle]]</h1>
     <div class="article__author">
-        <img src="images/author-img.png" alt=""><p>Оксана Лаврова</p><p class="article--date">[[*createdon:strtotime:date=`%d %B %Y`]]г</p>
+        <img src="/assets/images/Zaglushki/hobbydom 80x80.jpg" alt=""><p>Hobbydom</p><p class="article--date">[[*createdon:strtotime:date=`%d %B %Y`]]г</p>
     </div>
-    <img src="images/article-main-img.jpg" alt="" class="article__main-img">
+    <img src="/[[*article-big]]" alt="" class="article__main-img">
     <div class="header__share">
         <a href="https://www.facebook.com/sharer/sharer.php?u=https://newhobbydom.hosteam.pro/[[~[[*id]]]]" target="_blank">
 
@@ -22,7 +22,7 @@
                 </g>
                 <path d="M304 96h80v-96h-80c-61.757 0-112 50.243-112 112v48h-64v96h64v256h96v-256h80l16-96h-96v-48c0-8.673 7.327-16 16-16z"></path>
             </svg>
-            <span>Поделиться</span>
+            <span>[[%hobbydom_news_share_face? &topic=`hobbydom` &namespace=`hobbydom` ]]</span>
 
         </a>
     </div>

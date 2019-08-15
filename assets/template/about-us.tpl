@@ -59,10 +59,10 @@
 <section class="about-us__content">
     <div class="about-us__left">
         <div class="about-us__category">
-            <h5>руководитель клуба</h5>
+            <h5>[[%hobbydom_booss_club_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</h5>
             [[pdoResources?
                 &tpl=`about.worker.item`
-                &parents=`34`
+                &parents=`[[%hobbydom_booss_club_id? &topic=`hobbydom` &namespace=`hobbydom` ]]`
                 &includeTVs=`about-avatar,about-email,about-phone1`
                 &includeContent=`1`
             ]]
@@ -70,21 +70,21 @@
         </div>
 
         <div class="about-us__category">
-            <h5>наши администраторы</h5>
+            <h5>[[%hobbydom_admin_club_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</h5>
             [[pdoResources?
                 &tpl=`about.worker.item`
-                &parents=`35`
+                &parents=`[[%hobbydom_admin_club_id? &topic=`hobbydom` &namespace=`hobbydom` ]]`
                 &includeTVs=`about-avatar,about-phone1,about-email`
                 &includeContent=`1`
             ]]
         </div>
 
         <div class="about-us__category">
-            <h5>НАШИ ПЕДАГОГИ</h5>
+            <h5>[[%hobbydom_prepod_club_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</h5>
 
                 [[pdoResources?
                 &tpl=`about.worker.item`
-                &parents=`45`
+                &parents=`[[%hobbydom_prepod_club_id? &topic=`hobbydom` &namespace=`hobbydom` ]]`
                 &includeTVs=`about-avatar,about-email,about-phone1,class-list`
                 &includeContent=`1`
                 ]]
@@ -94,11 +94,11 @@
         <div class="about-us__end-page">
             <!--img src="images/loader.svg" alt=""-->
             <!--p>Больше преподователей</p-->
-            <h6>наши партнеры</h6>
+            <h6>[[%hobbydom_partner_club_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</h6>
             <div>
                 [[pdoResources?
                     &tpl=`about.partner.item`
-                    &parents=`48`
+                    &parents=`[[%hobbydom_partner_club_id? &topic=`hobbydom` &namespace=`hobbydom` ]]`
                     &includeTVs=`about-partner,partner-url`
 
                 ]]

@@ -11,6 +11,6 @@
                 &depth=`0`
             ]]
         </div>
-        <a href="/[[~4]]" class="button button--green">[[%hobbydom_clases_all_article? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
+        <a href="/[[++cultureKey]]/[[~[[++parent_classes]]]]" class="button button--green">[[%hobbydom_clases_all_article? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
     </div>
 </section>

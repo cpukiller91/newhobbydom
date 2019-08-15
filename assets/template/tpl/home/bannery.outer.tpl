@@ -2,7 +2,7 @@
     
     <picture>
         <source media="(min-width: 800px)" srcset="/[[+image]], /[[+image]] 2x">
-        <source media="(min-width: 320px)" srcset="/images/slider_pictures_768.png, /images/slider_pictures_768.png 2x">
+        <source media="(min-width: 320px)" srcset="/[[+image-320]], /[[+image-320]] 2x">
         <img src="/[[+image]]" alt="[[+name]]" title="[[+description]]" srcset="/[[+image]] 2x"/>
     </picture>
     <div class="nav__slider--content">

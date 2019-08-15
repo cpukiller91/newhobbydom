@@ -8,6 +8,6 @@
         [[%hobbydom_subscribe__checkbox_wrapper? &topic=`hobbydom` &namespace=`hobbydom` ]]
     </div>
     <div class="modal-footer">
-        <button type="submit" class="callback-submit button button--white">ПОДПИСАТЬСЯ</button><i></i>
+        <button type="submit" class="callback-submit button button--white">[[%hobbydom_callback_submit? &topic=`hobbydom` &namespace=`hobbydom` ]]</button><i></i>
     </div>
 </form>
