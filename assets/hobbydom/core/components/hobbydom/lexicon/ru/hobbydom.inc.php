@@ -1,12 +1,12 @@
 <?php
-
+$_lang['hobbydom_minute'] = 'минут';
 $_lang['hobbydom_svg_alt'] = 'Hobbydom';
 $_lang['hobbydom_title_wpapper'] = 'Hobbydom — семейный клуб развития детей и родителей';
 $_lang['hobbydom_icon_wrapper1'] = "<p>рядом <br>с домом</p>";
 $_lang['hobbydom_icon_wrapper2'] = '<p>занятия для детей от 1 года</p>';
 $_lang['hobbydom_icon_wrapper3'] = '<p>опытные педагоги</p>';
 $_lang['hobbydom_header_phone1'] = '+(371)68000088';
-$_lang['hobbydom_header_phone2'] = '+(371)68000089';
+$_lang['hobbydom_header_phone2'] = '+(371)29000088';
 $_lang['hobbydom_header_mail'] = 'info@hobbydom.lv';
 $_lang['hobbydom_instagram'] = 'https://www.instagram.com/hobbydom_latvia/';
 $_lang['hobbydom_facebook'] = 'https://www.facebook.com/hobbydomlv/';
@@ -59,7 +59,7 @@ $_lang['hobbydom_footer_col_top'] = '
 <p>ООО «HobbyDom» Рег. №40203141288<br>
 Юрмала, Проспект Валтера 5,<br>
 LV-2008<br><br>
-<a href="tel:+(371)68000088">+(371)68000088</a><a href="tel:+(371)68000088">+(371)29000088</a><br>
+<a href="tel:+(371)68000088">+(371)68000088</a><a href="tel:+(371)29000088">+(371)29000088</a><br>
 <a href="mailto:info@hobbydom.lv">info@hobbydom.lv</a><br><br>
 
 Банковские реквизиты:<br>
@@ -69,7 +69,7 @@ PARXLV22 AS "Citadele banka"<br>
 LV62PARX0020950320001</p>
 </p>';
 
-$_lang['hobbydom_footer_top_about'] = '4,31,8,9';
+$_lang['hobbydom_footer_top_about'] = '4,7,8,9';
 $_lang['hobbydom_menu_mobail'] = '4,7,8,9';
 $_lang['hobbydom_footer_top_hobbydom_title'] = 'О Хоббидом';
 $_lang['hobbydom_footer_top_fast_res'] = '4,7';
@@ -93,7 +93,7 @@ $_lang['hobbydom_subscribe__checkbox_wrapper'] = '
     </div>
     <div class="subscribe__checkbox">
         <input class="check-input" type="checkbox" id="accept" required="" name="accept4">
-        <label class="check-label" for="accept4">Я соглашаюсь на <a class="accept-link" target="_blank" href="/ru/publichnyj-dogovor-oferty.html">обработку персональных данных</a></label>
+        <label class="check-label" for="accept4">Я соглашаюсь на <a class="accept-link" target="_blank" href="/ru/politika-konfidencialnosti.html">обработку персональных данных</a></label>
     </div>
 </div>';
 

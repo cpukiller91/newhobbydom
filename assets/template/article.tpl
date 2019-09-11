@@ -38,6 +38,7 @@
                 [[pdoResources?
                     &tpl=`tpl.article.class`
                     &parents=`[[++parent_classes]]`
+                    &limit=`3`
                     &includeTVs=`class-user-option,class-image,price`
                 ]]
             </div>

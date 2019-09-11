@@ -25,5 +25,5 @@
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<link href="https://newhobbydom.hosteam.pro/assets/template/css/main.css" rel="stylesheet">
+<link href="/assets/template/css/main.css" rel="stylesheet">
 

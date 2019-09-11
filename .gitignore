@@ -1,0 +1,22 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+# MODX project files
+/config.core.php
+/index.php
+/.htaccess
+/connectors/
+/core/
+!/core/elements/
+!/core/composer.json
+!/core/composer.lock
+!/core/cache/.gitkeep
+/manager/
+/setup/
+/assets/components/
+/assets/cache/
+*.access
+# Log files
+*.log

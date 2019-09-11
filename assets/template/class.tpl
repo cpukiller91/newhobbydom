@@ -20,12 +20,13 @@
     <div class="article__right">
         <div class="class__right--info">
             <div class="class__right--row">
-                [[*contact-address-id]]
-                [[pdoResources?
-                	&tpl=`tpl.contacts.class`
-                    &parents=`9,199`
-                	&resources=`[[*contact-address-id]]`
-                ]]
+                [[*contact-address-id:notempty=`
+                    [[pdoResources?
+                    	&tpl=`tpl.contacts.class`
+                        &parents=`9,199`
+                    	&resources=`[[*contact-address-id]]`
+                    ]]
+                `]]
 
             </div>
             <div class="class__right--row class__right--row-icons">
@@ -33,8 +34,8 @@
             </div>
             <div class="class__right--row">
                 <div>
-                    <img src="images/evro_blue.svg" alt=""><p>от [[*price]] евро</p>
-                    <img src="images/clock_blue.svg" alt=""><p>[[*time]] минут</p>
+                    <img src="images/evro_blue.svg" alt=""><p>[[%hobbydom_clases_price_ot? &topic=`hobbydom` &namespace=`hobbydom` ]][[*price]] [[%hobbydom_clases_price_evro? &topic=`hobbydom` &namespace=`hobbydom` ]]</p>
+                    <img src="images/clock_blue.svg" alt=""><p>[[*time]] [[%hobbydom_minute? &topic=`hobbydom` &namespace=`hobbydom` ]]</p>
                 </div>
             </div>
             <div class="class__right--row">
@@ -45,14 +46,14 @@
                 `]]
 
             </div>
-            <a @click="openPopup('[[+pagetitle]]')" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
+            <a @click="openPopup('[[*pagetitle]]')" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
         </div>
     </div>
 </section>
 <section class="article__content article__content--second">
     <div class="article__left">
         [[*content]]
-        <a @click="openPopup('[[+pagetitle]]')" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
+        <a @click="openPopup('[[*pagetitle]]')" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
     </div>
     <div class="article__right">
         <div class="article__right--vidgets">
@@ -121,6 +122,6 @@
 [[$popup.modall]]
 </main>
 
-<script type="text/javascript" src="https://newhobbydom.hosteam.pro/assets/template/js/bundle_[[++cultureKey]].js"></script>
+<script type="text/javascript" src="/assets/template/js/bundle_[[++cultureKey]].js"></script>
 </body>
 </html>
