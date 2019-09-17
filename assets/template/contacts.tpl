@@ -35,6 +35,5 @@
     [[$popup.modall]]
 </main>
 
-<script type="text/javascript" src="/assets/template/js/bundle_[[++cultureKey]].js"></script>
 </body>
 </html>

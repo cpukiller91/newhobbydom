@@ -83,3 +83,5 @@
         </div>
     </div>
 </footer>
+
+<script type="text/javascript" src="/assets/template/js/bundle.js"></script>
