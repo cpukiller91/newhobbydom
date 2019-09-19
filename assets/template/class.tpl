@@ -7,7 +7,7 @@
 <main>
 [[$header]]
 [[$article.header]]
-<section class="article__content article__content--second">
+<section class="article__content">
     <!--<div class="article__left">
         <section class="article__header ">
             <img src="/[[*class-image-detail]]" alt="" class="article__main-img">
@@ -25,6 +25,42 @@
                 [[*type-class]]
             </div>
         </section>
+    </div>
+    <div class="article__right">
+        <div class="class__right--info">
+            <div class="class__right--row">
+                [[*contact-address-id:notempty=`
+                [[pdoResources?
+                &tpl=`tpl.contacts.class`
+                &parents=`9,199`
+                &resources=`[[*contact-address-id]]`
+                ]]
+                `]]
+
+            </div>
+            <div class="class__right--row class__right--row-icons">
+                [[ClassIcons?&tv=`[[*class-user-option]]` &allTitle=`1` &prefix=`_blue`]]
+            </div>
+            <div class="class__right--row">
+                <div>
+                    <img src="images/evro_blue.svg" alt=""><p>[[%hobbydom_clases_price_ot? &topic=`hobbydom` &namespace=`hobbydom` ]][[*price]] [[%hobbydom_clases_price_evro? &topic=`hobbydom` &namespace=`hobbydom` ]]</p>
+                    <img src="images/clock_blue.svg" alt=""><p>[[*time]] [[%hobbydom_minute? &topic=`hobbydom` &namespace=`hobbydom` ]]</p>
+                </div>
+            </div>
+            <div class="class__right--row">
+                [[*class-free:is=`1`:then=`
+                <div>
+                    <img src="images/gift_blue.svg" alt=""><p class="class__info--green">[[%hobbydom_class_free_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</p>
+                </div>
+                `]]
+
+            </div>
+            <a @click="openPopup({ id:[[*id]], name: '[[*pagetitle]]' })" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
+        </div>
+    </div>
+</section>
+<section class="article__content article__content--second">
+    <div class="article__left">
         <div class="class__content">
             <div class="class__content--item class__subtitle-acordeon">
                 <p class="class__subtitle">описание <img src="images/arrow_down_grey.svg" alt=""></p>
@@ -54,36 +90,7 @@
         <a @click="openPopup({ id:[[*id]], name: '[[*pagetitle]]' })" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
     </div>
     <div class="article__right">
-        <div class="class__right--info">
-            <div class="class__right--row">
-                [[*contact-address-id:notempty=`
-                    [[pdoResources?
-                    	&tpl=`tpl.contacts.class`
-                        &parents=`9,199`
-                    	&resources=`[[*contact-address-id]]`
-                    ]]
-                `]]
 
-            </div>
-            <div class="class__right--row class__right--row-icons">
-                [[ClassIcons?&tv=`[[*class-user-option]]` &allTitle=`1` &prefix=`_blue`]]
-            </div>
-            <div class="class__right--row">
-                <div>
-                    <img src="images/evro_blue.svg" alt=""><p>[[%hobbydom_clases_price_ot? &topic=`hobbydom` &namespace=`hobbydom` ]][[*price]] [[%hobbydom_clases_price_evro? &topic=`hobbydom` &namespace=`hobbydom` ]]</p>
-                    <img src="images/clock_blue.svg" alt=""><p>[[*time]] [[%hobbydom_minute? &topic=`hobbydom` &namespace=`hobbydom` ]]</p>
-                </div>
-            </div>
-            <div class="class__right--row">
-                [[*class-free:is=`1`:then=`
-                    <div>
-                        <img src="images/gift_blue.svg" alt=""><p class="class__info--green">[[%hobbydom_class_free_title? &topic=`hobbydom` &namespace=`hobbydom` ]]</p>
-                    </div>
-                `]]
-
-            </div>
-            <a @click="openPopup({ id:[[*id]], name: '[[*pagetitle]]' })" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
-        </div>
     </div>
 </section>
 <!--section class="article__content article__content--second">
