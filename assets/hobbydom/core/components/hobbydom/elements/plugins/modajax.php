@@ -143,7 +143,7 @@ if ($modx->event->name == 'OnLoadWebDocument') {
                 //если вы только добавили ученика, то в вашем массиве $resultContact есть его id
                 'contact_id' => $resultContact['id'],
                 'status' => 'Не начата',//Статус обязательный параметр
-                'assigned_user_id'=> 'e54a58cc-339a-6f0c-ce33-5bb7ad0ccf6a',
+                'assigned_user_id'=> '2ee3a9f5-9292-32c2-3d92-5c80d31b34a9',
 //            'parent_name' => 'most_class',//Связать с занятием
 //            'parent_id' => '36cde4e7-2e11-ad60-3134-54d095d574a6',//ID занятия
                 'priority' => 'Высокий',
