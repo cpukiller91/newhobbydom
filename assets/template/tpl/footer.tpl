@@ -1,3 +1,12 @@
+<signup-popup v-if="popupOpened"
+              @close="onPopupClose"
+              :class="{ success: popupFormSuccess }">
+    <signup-form :types="types"
+                 :all-types='[[pdoResources? &where=`[{"class_key":"msCategory","hidemenu":1}]` &parents=`[[++parent_classes]]` &return=`json` &select=`[{"id":"id","name":"pagetitle"}]`]]'
+                 @success="onPopupFormSuccess"
+                 lang="[[++cultureKey]]"
+    ></signup-form>
+</signup-popup>
 <footer>
     <div class="footer__columns">
         <div class="footer__col">

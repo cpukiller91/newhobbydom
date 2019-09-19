@@ -46,14 +46,14 @@
                 `]]
 
             </div>
-            <a @click="openPopup('[[*pagetitle]]')" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
+            <a @click="openPopup({ id:[[*id]], name: '[[*pagetitle]]' })" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
         </div>
     </div>
 </section>
 <section class="article__content article__content--second">
     <div class="article__left">
         [[*content]]
-        <a @click="openPopup('[[*pagetitle]]')" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
+        <a @click="openPopup({ id:[[*id]], name: '[[*pagetitle]]' })" class="button button--green">[[%hobbydom_clases_popup_button? &topic=`hobbydom` &namespace=`hobbydom` ]]</a>
     </div>
     <div class="article__right">
         <div class="article__right--vidgets">
@@ -112,6 +112,7 @@
                 &includeTVs=`class-user-option,class-image,price`
                 &resources=`-[[*id]]`
                 &limit=`3`
+                &where=`[{"class_key":"msCategory"}]`
             ]]
         </div>
     </div>

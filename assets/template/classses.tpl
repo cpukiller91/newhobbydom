@@ -93,6 +93,7 @@
                     &tplPageWrapper=`@INLINE <div class="paginataion">[[+prev]][[+next]]</div>`
                     &ajax=`1`
                     &ajaxMode=`scroll`
+                    &where=`[{"class_key":"msCategory"}]`
                 ]]
             </div>
 
