@@ -7,15 +7,45 @@
 <main>
 [[$header]]
 [[$article.header]]
-<section class="article__content">
-    <div class="article__left">
-        <section class="article__header">
+<section class="article__content article__content--second">
+    <!--<div class="article__left">
+        <section class="article__header ">
             <img src="/[[*class-image-detail]]" alt="" class="article__main-img">
 
             <div class="class__target-customers">
                 [[*type-class]]
             </div>
         </section>
+    </div>-->
+    <div class="article__left">
+        <section class="article__header article__header-bdb">
+            <p class="class__descr class__descr-top"> molestias nemo, non omnis sapiente, sit suscipit velit?</p>
+            <p class="class__sub-descr">Занятия проводятся билингвально.</p>
+        </section>
+        <div class="class__content">
+            <div class="class__content--item class__subtitle-acordeon">
+                <p class="class__subtitle">описание <img src="images/arrow_down_grey.svg" alt=""></p>
+                <div class="class__text--wrapper">
+                    <!-- переменная для вывода контента из tinymce-->
+                    <p class="class__subtitle class__subtitle-mobile"><img src="images/arrow_down_grey.svg" alt=""></p>
+                </div>
+            </div>
+            <div class="class__content--item class__content--item-padding-zero class__subtitle-acordeon">
+                <p class="class__subtitle">что брать с собой <img src="images/arrow_down_grey.svg" alt=""></p>
+                <div class="class__text--wrapper">
+                    <!-- переменная для вывода контента из tinymce-->
+                    <p class="class__subtitle class__subtitle-mobile"><img src="images/arrow_down_grey.svg" alt=""></p>
+                </div>
+            </div>
+            <div class="class__content--item class__content--item-padding-zero class__subtitle-acordeon">
+                <p class="class__subtitle">стоимость занятий <img src="images/arrow_down_grey.svg" alt=""></p>
+                <div class="class__text--wrapper">
+                    <!-- переменная для вывода контента из tinymce-->
+                    <p class="class__subtitle class__subtitle-mobile"><img src="images/arrow_down_grey.svg" alt=""></p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="button button--green">записаться на занятие</a>
     </div>
     <div class="article__right">
         <div class="class__right--info">
