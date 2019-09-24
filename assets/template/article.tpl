@@ -30,6 +30,7 @@
 <section class="article__content">
     <div class="article__left">
         [[*content]]
+        <!-- контент из tinymce сюда!!! -->
     </div>
     <div class="article__right">
         <div class="article__clases">
